@@ -47,7 +47,7 @@ def test_analyze_results():
     assert "LLM:GPT-baseline:{'accuracy':1.0,'f1_score':0.75}" in cleaned_stdout
     assert "LLM:Grok-baseline:{'accuracy':1.0,'f1_score':0.75}" in cleaned_stdout
     assert "LLM:peplexity-baseline:{'accuracy':1.0,'f1_score':0.75}" in cleaned_stdout
-    teardown_function()
+    # teardown_function()
 
 def test_run_evaluation_command():
     setup_function()
@@ -56,23 +56,23 @@ def test_run_evaluation_command():
     assert "Generating prompts" in result.stdout
     assert "Prompt generation complete." in result.stdout
     assert os.path.exists(os.path.join(results_dir, "prompts", "baseline_prompts.txt"))
-    teardown_function()
+    # teardown_function()
 
 def test_generate_plot_command():
     # Create dummy data for the plot
-    os.makedirs("results", exist_ok=True)
-    report_path = os.path.join("results", "ANALYSIS_REPORT.md")
+    os.makedirs(results_dir, exist_ok=True)
+    report_path = os.path.join(results_dir, "ANALYSIS_REPORT.md")
     with open(report_path, "w") as f:
         f.write("# Analysis Report\n\n")
         f.write("## Accuracy by LLM and Technique\n\n")
         f.write("| LLM | Baseline | Few-shot | CoT | ReAct |\n")
-        f.write("|---|---|---|---|---|")
+        f.write("|---|---|---|---|---|\n")
         f.write("| GPT | 0.51 | 0.53 | 0.05 | 0.02 |\n")
         f.write("| Grok | 0.02 | 0.03 | 0.03 | 0.01 |\n")
         f.write("| perplexity | 0.03 | 0.40 | 0.52 | 0.05 |\n")
     
-    plot_results_function("results")
-    assert os.path.exists("results/accuracy_comparison.png")
+    plot_results_function(results_dir)
+    assert os.path.exists(os.path.join(results_dir, "accuracy_comparison.png"))
 
     # Clean up
-    shutil.rmtree("results")
+    teardown_function()

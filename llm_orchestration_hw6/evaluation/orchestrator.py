@@ -59,7 +59,7 @@ def analyze(dataset_path: str, results_path: str, llms: str, techniques: str) ->
     Analyze the manual evaluation results.
     """
     results = {}
-    questions = load_dataset(dataset_path)
+    questions = load_dataset(os.path.abspath(dataset_path))
 
     llm_list = llms.split(',')
     technique_list = techniques.split(',')
