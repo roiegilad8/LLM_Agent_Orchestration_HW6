@@ -1,0 +1,28 @@
+# Virtual Environment
+.venv/
+venv/
+*.venv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Results
+results/
+*.csv:Zone.Identifier
+*.md:Zone.Identifier
+
+# Logs
+logs/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/

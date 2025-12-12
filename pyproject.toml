@@ -1,0 +1,32 @@
+[project]
+name = "llm-agent-orchestration-hw6"
+version = "0.1.0"
+description = "A CLI tool for evaluating prompt engineering techniques."
+authors = [{name = "Gemini"}]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.0.0",
+    "typer>=0.9.0", # For building the CLI
+    "httpx>=0.25.0", # For async HTTP requests to LLMs
+    "pydantic>=2.0.0", # For data validation and schema design
+    "scikit-learn>=1.0.0", # For evaluation metrics
+    "matplotlib>=3.7.0", # For visualization
+    "seaborn>=0.12.0", # For visualization
+    "python-dotenv>=1.0.0", # For environment variable management
+    "pyyaml>=6.0" # For YAML configuration
+]
+
+[project.scripts]
+llm-orch = "llm_agent_orchestration_hw6.cli.main:app"
+
+[tool.pytest.ini_options]
+pythonpath = "."
+
+[tool.setuptools]
+packages = ["llm_orchestration_hw6"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

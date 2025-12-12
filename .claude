@@ -1,0 +1,104 @@
+# .claude - LLM Agent Orchestration Framework (AI Handoff Knowledge Base)
+
+**Project Name**: LLM Agent Orchestration HW6
+**Current State**: Project Planning Complete, Ready for Development Phase
+**Date**: December 11, 2025
+**AI Agent**: Gemini
+
+---
+
+## 1. Project Overview & Context
+
+*   **Project Title**: LLM Agent Orchestration HW6
+*   **Goal**: Systematically evaluate various prompt engineering techniques to understand their impact on LLM performance and scalability in real-world applications.
+*   **Problem Statement**: Effective prompt engineering is crucial for achieving consistent and reliable outputs from LLMs in mass production scenarios. This project addresses the need for systematic evaluation to optimize performance.
+*   **Type**: CLI-Only Application
+*   **Target Grade**: 90-100
+*   **Timeline**: 10 Weeks (Due: February 19, 2026)
+*   **Current Phase**: Planning (Kickoff Interview Completed)
+
+---
+
+## 2. Key Decisions & Rationales (from PRD)
+
+*   **Tech Stack**: Python 3.11+, LLM Abstraction Layer, pandas, pytest, scikit-learn, matplotlib/seaborn.
+*   **Package Structure**: pip-installable Python package with `src` layout, `pyproject.toml`.
+*   **Entry Point**: Console script `llm-orch`.
+*   **LLM Providers**: Ollama, OpenAI API, Gemini API.
+*   **Testing Strategy**: `pytest` for unit/integration tests, ≥85% coverage, ≥20 unit tests, ≥5 edge cases. Mocking for external LLMs.
+*   **Configuration**: `config/settings.yaml`, environment variables for secrets, `.env` for local.
+*   **Extensibility**: Designed for adding new prompt techniques, metrics, LLM providers.
+
+---
+
+## 3. Current Task & Next Steps
+
+*   **Current Phase**: Completed project planning and documentation generation.
+*   **Next Action**: Begin core development based on the Missions file.
+*   **Mission Status**: All Phase 0 (Setup) missions are pending.
+
+---
+
+## 4. Key Artifacts Generated
+
+*   **PRD_LLM_Agent_Orchestration_HW6.md**: Product Requirements Document (Comprehensive planning)
+*   **Missions_LLM_Agent_Orchestration_HW6.md**: Detailed execution plan (Step-by-step development)
+*   **PROGRESS_TRACKER.md**: Mission tracking and rubric adherence
+*   **ground_truth_dataset.csv**: Project's evaluation dataset
+
+---
+
+## 5. Outstanding Questions / TBDs
+
+*   _None remaining from the kickoff interview._
+
+---
+
+## 6. Development Environment Setup
+
+*   **Python Version**: 3.11+
+*   **Dependencies**: Defined in `pyproject.toml`, installable via `pip install .`
+*   **LLM Setup**: Users need to install Ollama locally or provide API keys for OpenAI/Gemini via `.env` or environment variables.
+*   **Git Repository**: Local repository initialized for version control.
+
+---
+
+## 7. Progress Log (to be updated after each mission)
+
+*   **M0.1: Initialize Project Repository**:
+    *   **Status**: Pending
+    *   **Date**:
+    *   **Notes**:
+*   **M0.2: Define Project Structure**:
+    *   **Status**: Pending
+    *   **Date**:
+    *   **Notes**:
+*   ... (rest of missions will be appended here as they are completed)
+
+---
+
+## 8. Learning & Insights
+
+*   _To be populated as development progresses and challenges are overcome._
+
+---
+
+## 9. Code References / Key Modules
+
+*   **`src/llm_orchestration_hw6/config/`**: Configuration management.
+*   **`src/llm_orchestration_hw6/llms/`**: LLM abstraction layer and provider implementations.
+*   **`src/llm_orchestration_hw6/data/`**: Dataset loading and validation.
+*   **`src/llm_orchestration_hw6/prompts/`**: Prompt engineering technique implementations.
+*   **`src/llm_orchestration_hw6/evaluation/`**: Core evaluation logic and metrics.
+*   **`src/llm_orchestration_hw6/cli.py`**: Command-line interface.
+
+---
+
+## 10. External Resources
+
+*   **Ollama**: `https://ollama.com/`
+*   **OpenAI API Documentation**: `https://platform.openai.com/docs/`
+*   **Google Gemini API Documentation**: `https://ai.google.dev/`
+*   **Pytest Documentation**: `https://docs.pytest.org/`
+*   **Pandas Documentation**: `https://pandas.pydata.org/docs/`
+*   **Matplotlib/Seaborn Documentation**: `https://matplotlib.org/`, `https://seaborn.pydata.org/`

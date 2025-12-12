@@ -1,0 +1,60 @@
+# config/settings.yaml
+# This file contains the default configuration parameters for the LLM Agent Orchestration Framework.
+
+# General Settings
+app_name: "LLM Agent Orchestration Framework"
+version: "0.1.0"
+cache_dir: "cache/"
+log_level: "INFO" # DEBUG, INFO, WARNING, ERROR, CRITICAL
+
+# LLM Provider Settings
+default_llm_provider: "ollama" # Can be "ollama", "openai", "gemini", or "mock"
+ollama:
+  base_url: "http://localhost:11434"
+  default_model: "llama3"
+  default_temperature: 0.1
+  default_max_tokens: 500
+  timeout_seconds: 60
+openai:
+  base_url: "https://api.openai.com/v1"
+  default_model: "gpt-4-turbo"
+  default_temperature: 0.1
+  default_max_tokens: 500
+  timeout_seconds: 60
+  api_key_env_var: "OPENAI_API_KEY"
+gemini:
+  base_url: "https://generativelanguage.googleapis.com/v1beta"
+  default_model: "gemini-pro"
+  default_temperature: 0.1
+  default_max_tokens: 500
+  timeout_seconds: 60
+  api_key_env_var: "GEMINI_API_KEY"
+mock: # Settings for the mock LLM provider
+  response_delay_seconds: 0.1 # Simulate network latency
+  default_response: "This is a mock LLM response."
+
+# Data Settings
+data_path: "data/ground_truth_dataset.csv"
+results_dir: "results/"
+
+# Evaluation Settings
+evaluation:
+  batch_size: 10 # Number of questions to process in parallel
+  num_retries: 3 # Number of retries for failed LLM calls
+  retry_delay_seconds: 5 # Delay between retries
+  metrics: ["accuracy", "consistency", "cost", "latency"] # Default metrics to calculate
+  temperature_for_consistency: 0.0 # Temperature setting for consistency evaluation
+
+# Prompt Template Settings
+prompt_templates:
+  base_dir: "src/llm_orchestration_hw6/prompts/templates" # Directory where prompt templates are stored
+  baseline_template: "baseline.txt"
+  cot_template: "cot.txt"
+  fewshot_template: "fewshot.txt"
+
+# Plotting Settings
+plotting:
+  output_format: "png" # "png", "pdf", "jpg"
+  dpi: 300
+  figsize: [12, 8] # Width, Height in inches
+  color_palette: "viridis" # Matplotlib/Seaborn color palette
