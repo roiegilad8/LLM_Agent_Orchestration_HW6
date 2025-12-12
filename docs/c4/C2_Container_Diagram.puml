@@ -1,0 +1,19 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(user, "User")
+
+System_Boundary(cli, "LLM Orchestration Framework") {
+    Container(cli_app, "CLI Application", "Python, Typer", "The command-line interface for the user to interact with the system.")
+    Container(eval_engine, "Evaluation Engine", "Python", "Handles the evaluation of prompt engineering techniques.")
+    ContainerDb(results_db, "Results Database", "File System", "Stores the evaluation results and generated prompts.")
+}
+
+System_Ext(llm, "Large Language Model (LLM)")
+
+Rel(user, cli_app, "Uses")
+Rel(cli_app, eval_engine, "Delegates evaluation to")
+Rel(eval_engine, results_db, "Reads from and writes to")
+Rel(eval_engine, llm, "Interacts with")
+
+@enduml

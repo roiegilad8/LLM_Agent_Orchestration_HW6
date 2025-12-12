@@ -1,0 +1,33 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+Container(cli_app, "CLI Application") {
+    Component(main, "main.py", "Typer", "The main entry point for the CLI.")
+    Component(orchestrator, "orchestrator.py", "Python", "Orchestrates the evaluation process.")
+}
+
+Container(eval_engine, "Evaluation Engine") {
+    Component(data_loader, "loader.py", "Pandas", "Loads the ground truth dataset.")
+    Component(evaluators, "evaluators", "Python", "Contains the different prompt engineering technique evaluators.")
+    Component(metrics, "metrics.py", "Python", "Calculates the evaluation metrics.")
+}
+
+ContainerDb(results_db, "Results Database") {
+    Component(prompts, "prompts/", "Text files", "Stores the generated prompts.")
+    Component(responses, "responses/", "Text files", "Stores the manual evaluation responses.")
+    Component(reports, "reports/", "Markdown, JSON", "Stores the analysis reports.")
+}
+
+System_Ext(llm, "Large Language Model (LLM)")
+
+Rel(main, orchestrator, "Invokes")
+Rel(orchestrator, data_loader, "Uses")
+Rel(orchestrator, evaluators, "Uses")
+Rel(orchestrator, metrics, "Uses")
+Rel(orchestrator, prompts, "Writes to")
+Rel(orchestrator, responses, "Reads from")
+Rel(orchestrator, reports, "Writes to")
+Rel(evaluators, llm, "Interacts with")
+
+
+@enduml

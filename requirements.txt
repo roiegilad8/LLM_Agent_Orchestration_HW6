@@ -1,1 +1,7 @@
 openai
+pytest
+pytest-cov
+matplotlib
+seaborn
+papermill
+PyYAML

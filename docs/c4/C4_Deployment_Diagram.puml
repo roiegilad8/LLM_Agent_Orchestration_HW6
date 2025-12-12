@@ -1,0 +1,20 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Deployment.puml
+
+Deployment_Node(local, "Local Machine", "User's local machine") {
+    Deployment_Node(venv, "Virtual Environment", ".venv") {
+        Container(cli, "CLI Application", "Python")
+    }
+}
+
+Deployment_Node(github, "GitHub", "github.com") {
+    Deployment_Node(repo, "Repository", "llm-agent-orchestration-hw6") {
+        Component(source, "Source Code", "Python, PlantUML")
+        Component(docs, "Documentation", "Markdown")
+        Component(results, "Results", "JSON, Markdown")
+    }
+}
+
+Rel(local, github, "Pushes and pulls code")
+
+@enduml

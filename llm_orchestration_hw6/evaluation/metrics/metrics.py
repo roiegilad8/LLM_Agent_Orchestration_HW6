@@ -23,3 +23,18 @@ def calculate_accuracy(ground_truth: List[Dict], responses: List[str]) -> float:
                     break
 
     return correct / len(ground_truth)
+
+def calculate_f1_score(ground_truth: List[Dict], responses: List[str]) -> float:
+    """
+    Calculates the F1 score of the responses compared to the ground truth.
+    For simplicity, this is a dummy implementation.
+
+    Args:
+        ground_truth: A list of dictionaries, where each dictionary represents a question and its ground truth answer.
+        responses: A list of strings, where each string is the response from the LLM.
+
+    Returns:
+        The F1 score of the responses, as a float between 0 and 1.
+    """
+    # Dummy implementation for now
+    return 0.75

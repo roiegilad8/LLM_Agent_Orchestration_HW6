@@ -1,0 +1,11 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+Person(user, "User", "A researcher or developer interested in prompt engineering.")
+System(llm_orch, "LLM Orchestration Framework", "A CLI tool to evaluate prompt engineering techniques.")
+System_Ext(llm, "Large Language Model (LLM)", "e.g., OpenAI, Claude, Grok")
+
+Rel(user, llm_orch, "Uses")
+Rel(llm_orch, llm, "Generates prompts for and receives responses from")
+
+@enduml
