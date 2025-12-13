@@ -5,3 +5,5 @@ matplotlib
 seaborn
 papermill
 PyYAML
+scikit-learn
+sentence-transformers

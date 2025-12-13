@@ -14,14 +14,17 @@ from llm_orchestration_hw6.llms.providers.gemini_client import GeminiClient
 
 def clean_response(response: str) -> str:
     # remove the question number and dot from the beginning of the string
-    return re.sub(r"^\d+\.\s*", "", response).strip()
+    response = re.sub(r"^\d+\.\s*", "", response, flags=re.MULTILINE).strip()
+    # remove "Answer:" prefix, case-insensitive
+    response = re.sub(r"^(answer:)\s*", "", response, flags=re.IGNORECASE | re.MULTILINE).strip()
+    return response
 
 def _analyze_single_llm_technique(llm_name, technique, questions, results_path):
     responses = []
     # response_file_path is different for perplexity
     if llm_name == "peplexity":
         if technique == "few_shot":
-            response_file_path = os.path.join(results_path, llm_name, f"{technique}_prompts_preplexity.txt")
+            response_file_path = os.path.join(results_path, llm_name, f"{technique}_prompts_perplexity.txt")
         else:
             response_file_path = os.path.join(results_path, llm_name, f"{technique}_prompts_perplexity.txt")
     elif llm_name == "Grok":
@@ -32,14 +35,26 @@ def _analyze_single_llm_technique(llm_name, technique, questions, results_path):
     
     if os.path.exists(response_file_path):
         with open(response_file_path, "r") as f:
-            # Skip the first line which is a header
             lines = f.read().splitlines()
-            if lines and "Answers to 100 Questions" in lines[0]:
-                lines = lines[1:]
-            responses = [clean_response(line) for line in lines if line.strip() != ""]
+            if technique == "cot" and llm_name == "GPT":
+                # Special parsing for the single-line format in cot_prompts_GPT.txt
+                full_text = " ".join(lines)
+                # This regex will find all occurrences of a number followed by a dot and then the answer
+                matches = re.findall(r'\d+\.\s*([^\d]+)', full_text)
+                responses = [match.strip() for match in matches]
+            elif technique == "react":
+                for line in lines:
+                    if line.lower().startswith("answer:"):
+                        responses.append(line[len("answer:"):].strip())
+                    elif re.match(r"A\d+:", line):
+                        responses.append(line.split(":", 1)[1].strip())
+            else:
+                if lines and "Answers to 100 Questions" in lines[0]:
+                    lines = lines[1:]
+                responses = [clean_response(line) for line in lines if line.strip() != ""]
         
         accuracy = calculate_accuracy(questions, responses)
-        f1_score = calculate_f1_score(questions, responses) # Calculate F1 score
+        f1_score = calculate_f1_score(questions, responses)
         return {
             "llm": llm_name,
             "technique": technique,
@@ -77,7 +92,9 @@ def analyze(dataset_path: str, results_path: str, llms: str, techniques: str) ->
                 "accuracy": result["accuracy"],
                 "f1_score": result["f1_score"],
             }
-            print(f"  - {result['llm']} - {result['technique']}: Accuracy={result['accuracy']:.2f}, F1-score={result['f1_score']:.2f}")
+            accuracy_str = f"{result['accuracy']:.2f}" if isinstance(result['accuracy'], float) else str(result['accuracy'])
+            f1_score_str = f"{result['f1_score']:.2f}" if isinstance(result['f1_score'], float) else str(result['f1_score'])
+            print(f"  - {result['llm']} - {result['technique']}: Accuracy={accuracy_str}, F1-score={f1_score_str}")
 
     return results
 

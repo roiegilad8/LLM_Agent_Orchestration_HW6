@@ -75,14 +75,18 @@ def analyze_results(
             f.write(f"| {llm} | Accuracy |")
             for technique in techniques.split(','):
                 if technique in llm_results and isinstance(llm_results[technique], dict):
-                    f.write(f" {llm_results[technique]['accuracy']:.2f} |")
+                    accuracy_val = llm_results[technique]['accuracy']
+                    accuracy_str = f"{accuracy_val:.2f}" if isinstance(accuracy_val, float) else str(accuracy_val)
+                    f.write(f" {accuracy_str} |")
                 else:
                     f.write(" N/A |")
             f.write("\n")
             f.write(f"| {llm} | F1-Score |")
             for technique in techniques.split(','):
                 if technique in llm_results and isinstance(llm_results[technique], dict):
-                    f.write(f" {llm_results[technique]['f1_score']:.2f} |")
+                    f1_score_val = llm_results[technique]['f1_score']
+                    f1_score_str = f"{f1_score_val:.2f}" if isinstance(f1_score_val, float) else str(f1_score_val)
+                    f.write(f" {f1_score_str} |")
                 else:
                     f.write(" N/A |")
             f.write("\n")

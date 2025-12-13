@@ -9,7 +9,7 @@ runner = CliRunner()
 
 # Define paths relative to the project root
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ground_truth_path = os.path.join(project_root, "ground_truth_dataset.csv")
+ground_truth_path = os.path.join(project_root, "..", "ground_truth_dataset.csv")
 results_dir = os.path.join(project_root, "results")
 
 def setup_function():
@@ -19,15 +19,15 @@ def setup_function():
         f.write("id,category,difficulty,question,ground_truth_answer\n")
         f.write("1,math,easy,What is 2+2?,4\n")
     with open(os.path.join(results_dir, "GPT", "baseline_prompts_GPT.txt"), "w") as f:
-        f.write("Answers to 100 Questions\n4\n") # Added header to match expected format
-    
+        f.write("Answers to 100 Questions\n4\n") # Correct answer
+
     os.makedirs(os.path.join(results_dir, "Grok"), exist_ok=True)
     with open(os.path.join(results_dir, "Grok", "baseline_prompts_grok.txt"), "w") as f:
-        f.write("Answers to 100 Questions\n4\n")
+        f.write("Answers to 100 Questions\n5\n") # Incorrect answer
 
     os.makedirs(os.path.join(results_dir, "peplexity"), exist_ok=True)
     with open(os.path.join(results_dir, "peplexity", "baseline_prompts_perplexity.txt"), "w") as f:
-        f.write("Answers to 100 Questions\n4\n")
+        f.write("Answers to 100 Questions\n2\n") # Incorrect answer
 
 
 def teardown_function():

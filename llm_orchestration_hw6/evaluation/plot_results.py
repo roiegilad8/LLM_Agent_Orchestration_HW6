@@ -12,39 +12,56 @@ def plot_results_function(results_path: str):
     with open(report_path, 'r') as f:
         lines = f.readlines()
 
-    data = []
-    # Find the table header line
-    header_found = False
-    for line in lines:
-        if "| LLM | Baseline |" in line:
-            header_found = True
-            continue
-        if header_found and "|---|" not in line: # Skip the separator line
-            parts = [p.strip() for p in line.split('|') if p.strip() != '']
-            if len(parts) >= 5:  # Ensure enough parts for all techniques + LLM name
-                llm = parts[0]
-                try:
-                    accuracy_baseline = float(parts[1])
-                    accuracy_few_shot = float(parts[2])
-                    accuracy_cot = float(parts[3])
-                    accuracy_react = float(parts[4])
-                    data.append({'LLM': llm, 'Technique': 'baseline', 'Accuracy': accuracy_baseline})
-                    data.append({'LLM': llm, 'Technique': 'few_shot', 'Accuracy': accuracy_few_shot})
-                    data.append({'LLM': llm, 'Technique': 'cot', 'Accuracy': accuracy_cot})
-                    data.append({'LLM': llm, 'Technique': 'react', 'Accuracy': accuracy_react})
-                except ValueError:
-                    continue # Skip lines where accuracy is not a valid float
-            elif header_found and line.strip() == "": # Stop at the first empty line after the header
-                break
+    accuracy_data = []
+    f1_data = []
     
-    if not data:
-        print("No valid data found in ANALYSIS_REPORT.md for plotting.")
+    # Flag to indicate when we are in the data table
+    in_data_section = False
+    
+    for line_num, line in enumerate(lines):
+        if "| LLM | Metric |" in line: # Found the header for the new format
+            in_data_section = True
+            continue
+        if in_data_section and "|---|" in line: # Skip the separator line
+            continue
+        if in_data_section and line.strip() == "": # End of data section
+            in_data_section = False
+            continue
+        
+        if in_data_section:
+            parts = [p.strip() for p in line.split('|') if p.strip() != '']
+            if len(parts) >= 6: # Expecting LLM, Metric, and 4 technique scores
+                llm = parts[0]
+                metric_type = parts[1]
+                
+                row_scores = {}
+                techniques_list = ["baseline", "few_shot", "cot", "react"] # Order of techniques in the report
+                
+                for i, technique in enumerate(techniques_list):
+                    score_str = parts[2 + i]
+                    try:
+                        score = float(score_str)
+                    except ValueError:
+                        score = None # Use None for "N/A" or other non-float values
+                    row_scores[technique] = score
+                
+                if metric_type == "Accuracy":
+                    for technique, score in row_scores.items():
+                        if score is not None:
+                            accuracy_data.append({'LLM': llm, 'Technique': technique, 'Accuracy': score})
+                elif metric_type == "F1-Score":
+                    for technique, score in row_scores.items():
+                        if score is not None:
+                            f1_data.append({'LLM': llm, 'Technique': technique, 'F1-Score': score})
+    
+    if not accuracy_data:
+        print("No valid accuracy data found in ANALYSIS_REPORT.md for plotting.")
         return
 
-    df = pd.DataFrame(data)
+    df_accuracy = pd.DataFrame(accuracy_data)
 
     plt.figure(figsize=(12, 6))
-    sns.barplot(x='LLM', y='Accuracy', hue='Technique', data=df)
+    sns.barplot(x='LLM', y='Accuracy', hue='Technique', data=df_accuracy)
     plt.title('Accuracy of Prompt Engineering Techniques by LLM')
     plt.ylim(0, 1)
     plt.ylabel('Accuracy')
@@ -58,14 +75,18 @@ def plot_results_function(results_path: str):
     plt.savefig(output_path)
     print(f'Plot saved to {output_path}')
 
-@app.command()
-def generate_plot(
-    results_path: Annotated[str, typer.Option(help="Path to the evaluation results.")] = "results",
-):
-    """
-    Generate a plot from the analysis results.
-    """
-    plot_results_function(results_path)
-    
-if __name__ == "__main__":
-    app()
+    # Optionally, you can generate a plot for F1-Score as well
+    if f1_data:
+        df_f1 = pd.DataFrame(f1_data)
+        plt.figure(figsize=(12, 6))
+        sns.barplot(x='LLM', y='F1-Score', hue='Technique', data=df_f1)
+        plt.title('F1-Score of Prompt Engineering Techniques by LLM')
+        plt.ylim(0, 1)
+        plt.ylabel('F1-Score')
+        plt.xlabel('LLM')
+        plt.legend(title='Technique')
+        plt.grid(axis='y', linestyle='--')
+        plt.tight_layout()
+        output_path_f1 = os.path.join(results_path, 'f1_score_comparison.png')
+        plt.savefig(output_path_f1)
+        print(f'F1-Score Plot saved to {output_path_f1}')

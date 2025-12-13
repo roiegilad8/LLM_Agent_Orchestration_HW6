@@ -1,0 +1,1503 @@
+[
+  {
+    "id": "MATH_001",
+    "category": "Mathematics",
+    "difficulty": "easy",
+    "question": "What is 15 + 23?",
+    "ground_truth_answer": "38",
+    "reasoning_steps": [
+      "Add tens: 10 + 20 = 30",
+      "Add ones: 5 + 3 = 8",
+      "Combine: 30 + 8 = 38"
+    ],
+    "tags": [
+      "arithmetic",
+      "addition"
+    ]
+  },
+  {
+    "id": "MATH_002",
+    "category": "Mathematics",
+    "difficulty": "easy",
+    "question": "What is 100 - 45?",
+    "ground_truth_answer": "55",
+    "reasoning_steps": [
+      "Subtract: 100 - 45",
+      "Result: 55"
+    ],
+    "tags": [
+      "arithmetic",
+      "subtraction"
+    ]
+  },
+  {
+    "id": "MATH_003",
+    "category": "Mathematics",
+    "difficulty": "easy",
+    "question": "What is 7 \u00d7 8?",
+    "ground_truth_answer": "56",
+    "reasoning_steps": [
+      "Multiply 7 by 8",
+      "Result: 56"
+    ],
+    "tags": [
+      "arithmetic",
+      "multiplication"
+    ]
+  },
+  {
+    "id": "MATH_004",
+    "category": "Mathematics",
+    "difficulty": "easy",
+    "question": "What is 144 \u00f7 12?",
+    "ground_truth_answer": "12",
+    "reasoning_steps": [
+      "Divide 144 by 12",
+      "Result: 12"
+    ],
+    "tags": [
+      "arithmetic",
+      "division"
+    ]
+  },
+  {
+    "id": "MATH_005",
+    "category": "Mathematics",
+    "difficulty": "easy",
+    "question": "Is 17 a prime number?",
+    "ground_truth_answer": "Yes",
+    "reasoning_steps": [
+      "17 is only divisible by 1 and 17",
+      "Therefore it is prime"
+    ],
+    "tags": [
+      "number_theory",
+      "prime"
+    ]
+  },
+  {
+    "id": "MATH_006",
+    "category": "Mathematics",
+    "difficulty": "medium",
+    "question": "Solve: 2x + 5 = 13",
+    "ground_truth_answer": "x = 4",
+    "reasoning_steps": [
+      "2x + 5 = 13",
+      "2x = 8",
+      "x = 4"
+    ],
+    "tags": [
+      "algebra",
+      "linear_equation"
+    ]
+  },
+  {
+    "id": "MATH_007",
+    "category": "Mathematics",
+    "difficulty": "medium",
+    "question": "What is 25% of 200?",
+    "ground_truth_answer": "50",
+    "reasoning_steps": [
+      "25% = 0.25",
+      "0.25 \u00d7 200 = 50"
+    ],
+    "tags": [
+      "percentage"
+    ]
+  },
+  {
+    "id": "MATH_008",
+    "category": "Mathematics",
+    "difficulty": "medium",
+    "question": "What is the area of a rectangle with width 5 and length 12?",
+    "ground_truth_answer": "60",
+    "reasoning_steps": [
+      "Area = width \u00d7 length",
+      "Area = 5 \u00d7 12 = 60"
+    ],
+    "tags": [
+      "geometry",
+      "area"
+    ]
+  },
+  {
+    "id": "MATH_009",
+    "category": "Mathematics",
+    "difficulty": "medium",
+    "question": "What is 3\u00b3?",
+    "ground_truth_answer": "27",
+    "reasoning_steps": [
+      "3\u00b3 = 3 \u00d7 3 \u00d7 3",
+      "= 9 \u00d7 3 = 27"
+    ],
+    "tags": [
+      "exponents",
+      "powers"
+    ]
+  },
+  {
+    "id": "MATH_010",
+    "category": "Mathematics",
+    "difficulty": "medium",
+    "question": "What is \u221a64?",
+    "ground_truth_answer": "8",
+    "reasoning_steps": [
+      "\u221a64 is the number that when squared equals 64",
+      "8 \u00d7 8 = 64, so \u221a64 = 8"
+    ],
+    "tags": [
+      "roots",
+      "square_root"
+    ]
+  },
+  {
+    "id": "MATH_011",
+    "category": "Mathematics",
+    "difficulty": "hard",
+    "question": "A train travels 300 km at 60 km/h. How many hours?",
+    "ground_truth_answer": "5",
+    "reasoning_steps": [
+      "Time = Distance / Speed",
+      "Time = 300 / 60 = 5 hours"
+    ],
+    "tags": [
+      "word_problem",
+      "rate"
+    ]
+  },
+  {
+    "id": "MATH_012",
+    "category": "Mathematics",
+    "difficulty": "hard",
+    "question": "Solve: x\u00b2 - 5x + 6 = 0",
+    "ground_truth_answer": "x = 2 or x = 3",
+    "reasoning_steps": [
+      "Factor: (x - 2)(x - 3) = 0",
+      "Solutions: x = 2, x = 3"
+    ],
+    "tags": [
+      "quadratic",
+      "factoring"
+    ]
+  },
+  {
+    "id": "MATH_013",
+    "category": "Mathematics",
+    "difficulty": "hard",
+    "question": "What is the 7th number in sequence: 2, 4, 8, 16, ...?",
+    "ground_truth_answer": "128",
+    "reasoning_steps": [
+      "This is a geometric sequence with ratio 2",
+      "7th term = 2 \u00d7 2^(7-1) = 2 \u00d7 64 = 128"
+    ],
+    "tags": [
+      "sequence",
+      "geometric"
+    ]
+  },
+  {
+    "id": "MATH_014",
+    "category": "Mathematics",
+    "difficulty": "hard",
+    "question": "If a circle has radius 5, what is its circumference?",
+    "ground_truth_answer": "10\u03c0 or approximately 31.42",
+    "reasoning_steps": [
+      "Circumference = 2\u03c0r",
+      "C = 2\u03c0(5) = 10\u03c0 \u2248 31.42"
+    ],
+    "tags": [
+      "circle",
+      "circumference"
+    ]
+  },
+  {
+    "id": "MATH_015",
+    "category": "Mathematics",
+    "difficulty": "hard",
+    "question": "What is log\u2082(32)?",
+    "ground_truth_answer": "5",
+    "reasoning_steps": [
+      "log\u2082(32) = x means 2^x = 32",
+      "2^5 = 32, so x = 5"
+    ],
+    "tags": [
+      "logarithm"
+    ]
+  },
+  {
+    "id": "LOGIC_001",
+    "category": "Logic & Reasoning",
+    "difficulty": "easy",
+    "question": "All dogs are animals. Rover is a dog. Is Rover an animal?",
+    "ground_truth_answer": "Yes",
+    "reasoning_steps": [
+      "All dogs are animals (premise 1)",
+      "Rover is a dog (premise 2)",
+      "Therefore Rover is an animal (conclusion)"
+    ],
+    "tags": [
+      "syllogism",
+      "deduction"
+    ]
+  },
+  {
+    "id": "LOGIC_002",
+    "category": "Logic & Reasoning",
+    "difficulty": "easy",
+    "question": "If A is true and B is true, what is A AND B?",
+    "ground_truth_answer": "True",
+    "reasoning_steps": [
+      "A is true",
+      "B is true",
+      "A AND B = True"
+    ],
+    "tags": [
+      "boolean",
+      "logic"
+    ]
+  },
+  {
+    "id": "LOGIC_003",
+    "category": "Logic & Reasoning",
+    "difficulty": "easy",
+    "question": "If A is false and B is true, what is A OR B?",
+    "ground_truth_answer": "True",
+    "reasoning_steps": [
+      "A is false",
+      "B is true",
+      "A OR B = True (at least one is true)"
+    ],
+    "tags": [
+      "boolean",
+      "or_operator"
+    ]
+  },
+  {
+    "id": "LOGIC_004",
+    "category": "Logic & Reasoning",
+    "difficulty": "easy",
+    "question": "What is NOT(True)?",
+    "ground_truth_answer": "False",
+    "reasoning_steps": [
+      "NOT reverses the truth value",
+      "NOT(True) = False"
+    ],
+    "tags": [
+      "boolean",
+      "negation"
+    ]
+  },
+  {
+    "id": "LOGIC_005",
+    "category": "Logic & Reasoning",
+    "difficulty": "easy",
+    "question": "If it rains, the grass gets wet. It rained. Did the grass get wet?",
+    "ground_truth_answer": "Yes",
+    "reasoning_steps": [
+      "If rain \u2192 grass wet",
+      "Rain occurred",
+      "Therefore grass is wet"
+    ],
+    "tags": [
+      "modus_ponens"
+    ]
+  },
+  {
+    "id": "LOGIC_006",
+    "category": "Logic & Reasoning",
+    "difficulty": "medium",
+    "question": "No cats are dogs. Fluffy is a cat. Is Fluffy a dog?",
+    "ground_truth_answer": "No",
+    "reasoning_steps": [
+      "No cats are dogs (no overlap)",
+      "Fluffy is a cat",
+      "Therefore Fluffy is not a dog"
+    ],
+    "tags": [
+      "syllogism",
+      "negative"
+    ]
+  },
+  {
+    "id": "LOGIC_007",
+    "category": "Logic & Reasoning",
+    "difficulty": "medium",
+    "question": "Either A or B is true (but not both). A is false. Is B true?",
+    "ground_truth_answer": "Yes",
+    "reasoning_steps": [
+      "Exactly one of A or B is true (XOR)",
+      "A is false",
+      "Therefore B must be true"
+    ],
+    "tags": [
+      "exclusive_or",
+      "xor"
+    ]
+  },
+  {
+    "id": "LOGIC_008",
+    "category": "Logic & Reasoning",
+    "difficulty": "medium",
+    "question": "If the key fits, the lock opens. The lock is closed. Is the key fitting?",
+    "ground_truth_answer": "No (or unknown)",
+    "reasoning_steps": [
+      "Key fits \u2192 lock opens",
+      "Lock is closed (not open)",
+      "By contrapositive: lock not open \u2192 key doesn't fit"
+    ],
+    "tags": [
+      "contrapositive",
+      "inference"
+    ]
+  },
+  {
+    "id": "LOGIC_009",
+    "category": "Logic & Reasoning",
+    "difficulty": "medium",
+    "question": "All A are B. All B are C. Are all A also C?",
+    "ground_truth_answer": "Yes",
+    "reasoning_steps": [
+      "A \u2286 B (all A are B)",
+      "B \u2286 C (all B are C)",
+      "Therefore A \u2286 C (all A are C)"
+    ],
+    "tags": [
+      "transitive",
+      "set_logic"
+    ]
+  },
+  {
+    "id": "LOGIC_010",
+    "category": "Logic & Reasoning",
+    "difficulty": "medium",
+    "question": "In a group of 100 people, 60 like coffee, 50 like tea. At least how many like both?",
+    "ground_truth_answer": "10",
+    "reasoning_steps": [
+      "By inclusion-exclusion: |Coffee \u222a Tea| \u2264 100",
+      "|Coffee| + |Tea| - |Coffee \u2229 Tea| \u2264 100",
+      "60 + 50 - |Coffee \u2229 Tea| \u2264 100",
+      "|Coffee \u2229 Tea| \u2265 10"
+    ],
+    "tags": [
+      "set_theory",
+      "inclusion_exclusion"
+    ]
+  },
+  {
+    "id": "LOGIC_011",
+    "category": "Logic & Reasoning",
+    "difficulty": "hard",
+    "question": "Knights always tell truth, Knaves always lie. You meet someone. They say 'I am a Knave'. What are they?",
+    "ground_truth_answer": "This is paradoxical - neither works",
+    "reasoning_steps": [
+      "If Knight: knights tell truth, so they'd say 'I'm a Knight' \u2717",
+      "If Knave: knaves lie, so they can't say 'I'm a Knave' (truth) \u2717",
+      "Conclusion: paradox, impossible statement"
+    ],
+    "tags": [
+      "paradox",
+      "logic_puzzle"
+    ]
+  },
+  {
+    "id": "LOGIC_012",
+    "category": "Logic & Reasoning",
+    "difficulty": "hard",
+    "question": "There are 3 boxes. One has gold, two have rocks. You pick box A. The host opens box B (rock). Should you switch to box C?",
+    "ground_truth_answer": "Yes",
+    "reasoning_steps": [
+      "Your box A: 1/3 chance of gold",
+      "Boxes B+C: 2/3 chance gold combined",
+      "Host opens B (rock)",
+      "Box C now has 2/3 chance of gold",
+      "Switch increases chances to 2/3"
+    ],
+    "tags": [
+      "monty_hall",
+      "probability"
+    ]
+  },
+  {
+    "id": "LOGIC_013",
+    "category": "Logic & Reasoning",
+    "difficulty": "hard",
+    "question": "A statement is self-referentially true if it accurately describes itself. Is 'This statement is false' self-referentially true?",
+    "ground_truth_answer": "No - it's a paradox",
+    "reasoning_steps": [
+      "If true: statement is false (contradiction)",
+      "If false: statement is true (contradiction)",
+      "Conclusion: paradox, not true or false"
+    ],
+    "tags": [
+      "liar_paradox",
+      "self_reference"
+    ]
+  },
+  {
+    "id": "LOGIC_014",
+    "category": "Logic & Reasoning",
+    "difficulty": "hard",
+    "question": "If all X are Y, all Y are Z, and some Z are not W, can we conclude some X are not W?",
+    "ground_truth_answer": "No",
+    "reasoning_steps": [
+      "X \u2286 Y, Y \u2286 Z means X \u2286 Z",
+      "Some Z \u2209 W means \u2203z where z \u2208 Z, z \u2209 W",
+      "But we don't know if those Z are in X",
+      "Cannot conclude without more info"
+    ],
+    "tags": [
+      "syllogism",
+      "quantifiers"
+    ]
+  },
+  {
+    "id": "LOGIC_015",
+    "category": "Logic & Reasoning",
+    "difficulty": "hard",
+    "question": "A and B enter a room. A says 'At least one of us is a knave'. What can you deduce?",
+    "ground_truth_answer": "A is a Knight, B is a Knave",
+    "reasoning_steps": [
+      "If A is Knave: statement is false, but knaves lie (consistent)",
+      "If A is Knight: statement is true, so at least one is knave, must be B"
+    ],
+    "tags": [
+      "knights_knaves"
+    ]
+  },
+  {
+    "id": "LANG_001",
+    "category": "Language & Semantics",
+    "difficulty": "easy",
+    "question": "What is the opposite of 'hot'?",
+    "ground_truth_answer": "cold",
+    "reasoning_steps": [
+      "'Hot' means high temperature",
+      "'Cold' is the opposite - low temperature"
+    ],
+    "tags": [
+      "antonym"
+    ]
+  },
+  {
+    "id": "LANG_002",
+    "category": "Language & Semantics",
+    "difficulty": "easy",
+    "question": "Is 'book' a noun or verb?",
+    "ground_truth_answer": "Both (noun primarily, verb in context)",
+    "reasoning_steps": [
+      "'Book' as noun: a written work",
+      "'Book' as verb: to reserve"
+    ],
+    "tags": [
+      "parts_of_speech"
+    ]
+  },
+  {
+    "id": "LANG_003",
+    "category": "Language & Semantics",
+    "difficulty": "easy",
+    "question": "What does 'ambiguous' mean?",
+    "ground_truth_answer": "Having more than one possible meaning",
+    "reasoning_steps": [
+      "Ambiguous = capable of multiple interpretations"
+    ],
+    "tags": [
+      "vocabulary",
+      "definition"
+    ]
+  },
+  {
+    "id": "LANG_004",
+    "category": "Language & Semantics",
+    "difficulty": "easy",
+    "question": "What is a synonym for 'happy'?",
+    "ground_truth_answer": "joyful, cheerful, delighted, or similar",
+    "reasoning_steps": [
+      "Synonym = word with same/similar meaning",
+      "Happy \u2248 joyful"
+    ],
+    "tags": [
+      "synonym"
+    ]
+  },
+  {
+    "id": "LANG_005",
+    "category": "Language & Semantics",
+    "difficulty": "easy",
+    "question": "Complete: 'The dog ___ the bone.' (buried/bury/buries)?",
+    "ground_truth_answer": "buried",
+    "reasoning_steps": [
+      "Subject 'dog' is singular",
+      "Past tense context 'The dog...'",
+      "Correct: 'The dog buried the bone'"
+    ],
+    "tags": [
+      "grammar",
+      "verb_form"
+    ]
+  },
+  {
+    "id": "LANG_006",
+    "category": "Language & Semantics",
+    "difficulty": "medium",
+    "question": "What does 'pragmatic' mean?",
+    "ground_truth_answer": "Dealing with things in a practical way",
+    "reasoning_steps": [
+      "Pragmatic \u2248 focused on practical results",
+      "Not theoretical, but practical"
+    ],
+    "tags": [
+      "vocabulary"
+    ]
+  },
+  {
+    "id": "LANG_007",
+    "category": "Language & Semantics",
+    "difficulty": "medium",
+    "question": "Is 'they' a singular or plural pronoun?",
+    "ground_truth_answer": "Both (increasingly singular in modern usage)",
+    "reasoning_steps": [
+      "Traditionally plural",
+      "Modern English uses 'they' for singular unclear gender"
+    ],
+    "tags": [
+      "pronouns",
+      "grammar"
+    ]
+  },
+  {
+    "id": "LANG_008",
+    "category": "Language & Semantics",
+    "difficulty": "medium",
+    "question": "What is the difference between 'imply' and 'infer'?",
+    "ground_truth_answer": "Imply: suggest; Infer: deduce from context",
+    "reasoning_steps": [
+      "Imply = speaker suggests",
+      "Infer = listener deduces"
+    ],
+    "tags": [
+      "word_pairs",
+      "nuance"
+    ]
+  },
+  {
+    "id": "LANG_009",
+    "category": "Language & Semantics",
+    "difficulty": "medium",
+    "question": "What is an idiom? Give an example.",
+    "ground_truth_answer": "A phrase meaning something different from literal words. E.g., 'raining cats and dogs'",
+    "reasoning_steps": [
+      "Idiom = figurative language",
+      "Literal meaning \u2260 intended meaning",
+      "Example: 'it's raining cats and dogs' = heavy rain"
+    ],
+    "tags": [
+      "idiom",
+      "figurative"
+    ]
+  },
+  {
+    "id": "LANG_010",
+    "category": "Language & Semantics",
+    "difficulty": "medium",
+    "question": "Is 'unique' gradable (can something be 'very unique')?",
+    "ground_truth_answer": "Technically no (unique = one of a kind), but used that way colloquially",
+    "reasoning_steps": [
+      "Unique = absolute, can't be modified",
+      "Colloquial English: 'very unique' used anyway"
+    ],
+    "tags": [
+      "grammar",
+      "absolute_adjectives"
+    ]
+  },
+  {
+    "id": "LANG_011",
+    "category": "Language & Semantics",
+    "difficulty": "hard",
+    "question": "What is the semantic difference between 'incomplete' and 'unfinished'?",
+    "ground_truth_answer": "Incomplete: missing parts; Unfinished: process not yet done",
+    "reasoning_steps": [
+      "Incomplete = lacks completeness",
+      "Unfinished = in process, not completed yet",
+      "A draft is unfinished; a puzzle with missing pieces is incomplete"
+    ],
+    "tags": [
+      "semantic_nuance"
+    ]
+  },
+  {
+    "id": "LANG_012",
+    "category": "Language & Semantics",
+    "difficulty": "hard",
+    "question": "Is language prescriptive or descriptive, and why does it matter?",
+    "ground_truth_answer": "Both; prescriptive = rules, descriptive = how people use it",
+    "reasoning_steps": [
+      "Prescriptive: 'should' language follow rules",
+      "Descriptive: 'does' language evolve naturally",
+      "Modern linguistics: descriptive focus"
+    ],
+    "tags": [
+      "philosophy_of_language"
+    ]
+  },
+  {
+    "id": "LANG_013",
+    "category": "Language & Semantics",
+    "difficulty": "hard",
+    "question": "What is the Sapir-Whorf hypothesis about language?",
+    "ground_truth_answer": "Language shapes thought; the words we have affect how we think",
+    "reasoning_steps": [
+      "Linguistic relativity = language influences cognition",
+      "Strong version: language determines thought",
+      "Weak version: language influences thought"
+    ],
+    "tags": [
+      "linguistic_theory"
+    ]
+  },
+  {
+    "id": "LANG_014",
+    "category": "Language & Semantics",
+    "difficulty": "hard",
+    "question": "Can a word be both a homonym and a homophone? Give example.",
+    "ground_truth_answer": "Yes. Example: 'lead' (metal) and 'lead' (guide)",
+    "reasoning_steps": [
+      "Homonym: same spelling/pronunciation, different meaning",
+      "Homophone: same pronunciation, different meaning",
+      "Lead (metal) and lead (guide) = both homonym and homophone"
+    ],
+    "tags": [
+      "word_classification"
+    ]
+  },
+  {
+    "id": "CODE_001",
+    "category": "Code Understanding",
+    "difficulty": "easy",
+    "question": "What does print('hello') output?",
+    "ground_truth_answer": "hello",
+    "reasoning_steps": [
+      "print() outputs text to console",
+      "Text 'hello' is displayed"
+    ],
+    "tags": [
+      "python",
+      "basic_output"
+    ]
+  },
+  {
+    "id": "CODE_002",
+    "category": "Code Understanding",
+    "difficulty": "easy",
+    "question": "What is x after: x = 5; x = x + 3?",
+    "ground_truth_answer": "8",
+    "reasoning_steps": [
+      "x starts as 5",
+      "x = x + 3 means x becomes 5 + 3 = 8"
+    ],
+    "tags": [
+      "assignment",
+      "variables"
+    ]
+  },
+  {
+    "id": "CODE_003",
+    "category": "Code Understanding",
+    "difficulty": "easy",
+    "question": "What does len('hello') return?",
+    "ground_truth_answer": "5",
+    "reasoning_steps": [
+      "len() counts characters",
+      "'hello' has 5 letters"
+    ],
+    "tags": [
+      "python",
+      "string_length"
+    ]
+  },
+  {
+    "id": "CODE_004",
+    "category": "Code Understanding",
+    "difficulty": "easy",
+    "question": "Is 5 > 3 true or false?",
+    "ground_truth_answer": "True",
+    "reasoning_steps": [
+      "5 is greater than 3",
+      "Comparison returns True"
+    ],
+    "tags": [
+      "comparison",
+      "boolean"
+    ]
+  },
+  {
+    "id": "CODE_005",
+    "category": "Code Understanding",
+    "difficulty": "easy",
+    "question": "What is 10 % 3 (modulo)?",
+    "ground_truth_answer": "1",
+    "reasoning_steps": [
+      "% is modulo (remainder)",
+      "10 \u00f7 3 = 3 remainder 1",
+      "10 % 3 = 1"
+    ],
+    "tags": [
+      "arithmetic",
+      "modulo"
+    ]
+  },
+  {
+    "id": "CODE_006",
+    "category": "Code Understanding",
+    "difficulty": "medium",
+    "question": "x = [1, 2, 3]; x[1] = ?",
+    "ground_truth_answer": "2",
+    "reasoning_steps": [
+      "Lists are 0-indexed",
+      "x[0]=1, x[1]=2, x[2]=3",
+      "x[1] is 2"
+    ],
+    "tags": [
+      "lists",
+      "indexing"
+    ]
+  },
+  {
+    "id": "CODE_007",
+    "category": "Code Understanding",
+    "difficulty": "medium",
+    "question": "What does 'hello'.upper() return?",
+    "ground_truth_answer": "HELLO",
+    "reasoning_steps": [
+      "upper() converts to uppercase",
+      "'hello'.upper() = 'HELLO'"
+    ],
+    "tags": [
+      "strings",
+      "methods"
+    ]
+  },
+  {
+    "id": "CODE_008",
+    "category": "Code Understanding",
+    "difficulty": "medium",
+    "question": "for i in range(3): print(i) outputs?",
+    "ground_truth_answer": "0 1 2 (on separate lines)",
+    "reasoning_steps": [
+      "range(3) = [0, 1, 2]",
+      "Loop prints each: 0, 1, 2"
+    ],
+    "tags": [
+      "loops",
+      "range"
+    ]
+  },
+  {
+    "id": "CODE_009",
+    "category": "Code Understanding",
+    "difficulty": "medium",
+    "question": "What is {'a': 1, 'b': 2}['a']?",
+    "ground_truth_answer": "1",
+    "reasoning_steps": [
+      "Dictionary access with key",
+      "Key 'a' maps to value 1"
+    ],
+    "tags": [
+      "dictionaries"
+    ]
+  },
+  {
+    "id": "CODE_010",
+    "category": "Code Understanding",
+    "difficulty": "medium",
+    "question": "if 5 > 3: print('yes'); What prints?",
+    "ground_truth_answer": "yes",
+    "reasoning_steps": [
+      "5 > 3 is True",
+      "if True block executes",
+      "'yes' prints"
+    ],
+    "tags": [
+      "conditionals"
+    ]
+  },
+  {
+    "id": "CODE_011",
+    "category": "Code Understanding",
+    "difficulty": "hard",
+    "question": "x = [i*2 for i in [1,2,3]]; x = ?",
+    "ground_truth_answer": "[2, 4, 6]",
+    "reasoning_steps": [
+      "List comprehension",
+      "For each i in [1,2,3], multiply by 2",
+      "[1*2, 2*2, 3*2] = [2, 4, 6]"
+    ],
+    "tags": [
+      "list_comprehension"
+    ]
+  },
+  {
+    "id": "CODE_012",
+    "category": "Code Understanding",
+    "difficulty": "hard",
+    "question": "def f(x): return x**2; f(5) = ?",
+    "ground_truth_answer": "25",
+    "reasoning_steps": [
+      "Function f returns x squared",
+      "f(5) = 5**2 = 25"
+    ],
+    "tags": [
+      "functions",
+      "return"
+    ]
+  },
+  {
+    "id": "CODE_013",
+    "category": "Code Understanding",
+    "difficulty": "hard",
+    "question": "x = [1,2,3]; x.pop() returns?",
+    "ground_truth_answer": "3",
+    "reasoning_steps": [
+      "pop() removes and returns last element",
+      "Last element of [1,2,3] is 3",
+      "x becomes [1,2]"
+    ],
+    "tags": [
+      "list_methods"
+    ]
+  },
+  {
+    "id": "CODE_014",
+    "category": "Code Understanding",
+    "difficulty": "hard",
+    "question": "What is try/except used for?",
+    "ground_truth_answer": "Handle errors/exceptions gracefully",
+    "reasoning_steps": [
+      "try: code that might error",
+      "except: code if error occurs",
+      "Prevents crash, handles exception"
+    ],
+    "tags": [
+      "exception_handling"
+    ]
+  },
+  {
+    "id": "KNOW_001",
+    "category": "World Knowledge",
+    "difficulty": "easy",
+    "question": "What is the capital of France?",
+    "ground_truth_answer": "Paris",
+    "reasoning_steps": [
+      "France's capital city is Paris"
+    ],
+    "tags": [
+      "geography",
+      "capitals"
+    ]
+  },
+  {
+    "id": "KNOW_002",
+    "category": "World Knowledge",
+    "difficulty": "easy",
+    "question": "What year did World War 2 end?",
+    "ground_truth_answer": "1945",
+    "reasoning_steps": [
+      "WW2 ended in 1945 (Europe in May, Japan in September)"
+    ],
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": "KNOW_003",
+    "category": "World Knowledge",
+    "difficulty": "easy",
+    "question": "What is the largest planet in our solar system?",
+    "ground_truth_answer": "Jupiter",
+    "reasoning_steps": [
+      "Jupiter is the largest planet"
+    ],
+    "tags": [
+      "astronomy",
+      "solar_system"
+    ]
+  },
+  {
+    "id": "KNOW_004",
+    "category": "World Knowledge",
+    "difficulty": "easy",
+    "question": "What is H2O?",
+    "ground_truth_answer": "Water",
+    "reasoning_steps": [
+      "H2O is the chemical formula for water (2 hydrogen, 1 oxygen)"
+    ],
+    "tags": [
+      "chemistry"
+    ]
+  },
+  {
+    "id": "KNOW_005",
+    "category": "World Knowledge",
+    "difficulty": "easy",
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "ground_truth_answer": "William Shakespeare",
+    "reasoning_steps": [
+      "Shakespeare wrote this famous play in early 1600s"
+    ],
+    "tags": [
+      "literature",
+      "authors"
+    ]
+  },
+  {
+    "id": "KNOW_006",
+    "category": "World Knowledge",
+    "difficulty": "medium",
+    "question": "What is the smallest country by area?",
+    "ground_truth_answer": "Vatican City",
+    "reasoning_steps": [
+      "Vatican City is 0.44 sq km, smallest sovereign nation"
+    ],
+    "tags": [
+      "geography",
+      "countries"
+    ]
+  },
+  {
+    "id": "KNOW_007",
+    "category": "World Knowledge",
+    "difficulty": "medium",
+    "question": "What is the speed of light?",
+    "ground_truth_answer": "Approximately 299,792 km/s or 3\u00d710^8 m/s",
+    "reasoning_steps": [
+      "Speed of light c \u2248 3 \u00d7 10^8 m/s"
+    ],
+    "tags": [
+      "physics"
+    ]
+  },
+  {
+    "id": "KNOW_008",
+    "category": "World Knowledge",
+    "difficulty": "medium",
+    "question": "How many continents are there?",
+    "ground_truth_answer": "7 (or 5-6 depending on classification)",
+    "reasoning_steps": [
+      "Standard: Africa, Antarctica, Asia, Europe, North America, Oceania, South America"
+    ],
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "KNOW_009",
+    "category": "World Knowledge",
+    "difficulty": "medium",
+    "question": "Who was the first President of the United States?",
+    "ground_truth_answer": "George Washington",
+    "reasoning_steps": [
+      "George Washington served 1789-1797"
+    ],
+    "tags": [
+      "history",
+      "politics"
+    ]
+  },
+  {
+    "id": "KNOW_010",
+    "category": "World Knowledge",
+    "difficulty": "medium",
+    "question": "What is the chemical symbol for Gold?",
+    "ground_truth_answer": "Au",
+    "reasoning_steps": [
+      "Gold's atomic number is 79, symbol is Au from 'aurum'"
+    ],
+    "tags": [
+      "chemistry"
+    ]
+  },
+  {
+    "id": "KNOW_011",
+    "category": "World Knowledge",
+    "difficulty": "hard",
+    "question": "Who developed the theory of evolution?",
+    "ground_truth_answer": "Charles Darwin",
+    "reasoning_steps": [
+      "Darwin's 'Origin of Species' published 1859"
+    ],
+    "tags": [
+      "science",
+      "biology"
+    ]
+  },
+  {
+    "id": "KNOW_012",
+    "category": "World Knowledge",
+    "difficulty": "hard",
+    "question": "What philosopher is known for 'Categorical Imperative'?",
+    "ground_truth_answer": "Immanuel Kant",
+    "reasoning_steps": [
+      "Kant's ethical theory in Critique of Pure Reason"
+    ],
+    "tags": [
+      "philosophy",
+      "ethics"
+    ]
+  },
+  {
+    "id": "KNOW_013",
+    "category": "World Knowledge",
+    "difficulty": "hard",
+    "question": "Which Renaissance artist painted the Sistine Chapel ceiling?",
+    "ground_truth_answer": "Michelangelo",
+    "reasoning_steps": [
+      "Michelangelo painted ceiling 1508-1512"
+    ],
+    "tags": [
+      "art",
+      "history"
+    ]
+  },
+  {
+    "id": "KNOW_014",
+    "category": "World Knowledge",
+    "difficulty": "hard",
+    "question": "What is the Gutenberg-Richter relation used for?",
+    "ground_truth_answer": "Predicting earthquake frequency and magnitude",
+    "reasoning_steps": [
+      "Empirical relation in seismology relating magnitude to frequency"
+    ],
+    "tags": [
+      "geology",
+      "seismology"
+    ]
+  },
+  {
+    "id": "CREA_001",
+    "category": "Creative Problem Solving",
+    "difficulty": "easy",
+    "question": "If you had 2 pieces of string and needed to make 4 pieces, what could you do?",
+    "ground_truth_answer": "Cut each piece once (creating 4 total)",
+    "reasoning_steps": [
+      "Cut first string = 2 pieces",
+      "Cut second string = 2 more pieces",
+      "Total = 4 pieces"
+    ],
+    "tags": [
+      "simple_puzzle"
+    ]
+  },
+  {
+    "id": "CREA_002",
+    "category": "Creative Problem Solving",
+    "difficulty": "easy",
+    "question": "How can you make a circle into a square?",
+    "ground_truth_answer": "Draw/add 4 sides to make a square shape (many valid solutions)",
+    "reasoning_steps": [
+      "Reshape the circle or inscribe/circumscribe a square"
+    ],
+    "tags": [
+      "creativity"
+    ]
+  },
+  {
+    "id": "CREA_003",
+    "category": "Creative Problem Solving",
+    "difficulty": "easy",
+    "question": "What can you use as a hammer if you don't have one?",
+    "ground_truth_answer": "Rock, shoe, piece of wood, etc. (any tool that can strike)",
+    "reasoning_steps": [
+      "A hammer is a tool for striking/driving",
+      "Anything that can strike works"
+    ],
+    "tags": [
+      "lateral_thinking"
+    ]
+  },
+  {
+    "id": "CREA_004",
+    "category": "Creative Problem Solving",
+    "difficulty": "easy",
+    "question": "If a cup is upside down, how do you turn it right-side up?",
+    "ground_truth_answer": "Flip/rotate it 180 degrees",
+    "reasoning_steps": [
+      "Physical rotation solves this"
+    ],
+    "tags": [
+      "simple"
+    ]
+  },
+  {
+    "id": "CREA_005",
+    "category": "Creative Problem Solving",
+    "difficulty": "easy",
+    "question": "You have 3 coins. Make them into a triangle. How?",
+    "ground_truth_answer": "Arrange them in triangle shape (touching at points)",
+    "reasoning_steps": [
+      "Geometric arrangement"
+    ],
+    "tags": [
+      "spatial"
+    ]
+  },
+  {
+    "id": "CREA_006",
+    "category": "Creative Problem Solving",
+    "difficulty": "medium",
+    "question": "You have a jug of 3L and 5L. Measure exactly 4L. How?",
+    "ground_truth_answer": "Fill 5L, pour into 3L, empty 3L. Pour remaining 2L from 5L to 3L. Fill 5L again, pour into 3L (needs 1L more), leaving 4L in 5L jug.",
+    "reasoning_steps": [
+      "Multiple transfer operations",
+      "Track water in each jug"
+    ],
+    "tags": [
+      "water_jug",
+      "optimization"
+    ]
+  },
+  {
+    "id": "CREA_007",
+    "category": "Creative Problem Solving",
+    "difficulty": "medium",
+    "question": "Move one stick to make this correct: VI + IV = IX (Roman numerals)",
+    "ground_truth_answer": "V + IV = IX or VI + IV = X (depending on interpretation)",
+    "reasoning_steps": [
+      "Visual rearrangement of stick puzzle"
+    ],
+    "tags": [
+      "puzzle",
+      "roman_numerals"
+    ]
+  },
+  {
+    "id": "CREA_008",
+    "category": "Creative Problem Solving",
+    "difficulty": "medium",
+    "question": "How can you connect 9 dots in a 3\u00d73 grid with 4 straight lines without lifting pen?",
+    "ground_truth_answer": "Extend lines beyond grid boundary (9-dot puzzle solution)",
+    "reasoning_steps": [
+      "Key insight: lines can extend outside visible grid"
+    ],
+    "tags": [
+      "dot_puzzle"
+    ]
+  },
+  {
+    "id": "CREA_009",
+    "category": "Creative Problem Solving",
+    "difficulty": "medium",
+    "question": "A man is trapped in a room with no windows. His only option is a door. The door has two guards. One always lies, one always tells truth. You don't know which is which. You can ask ONE question to find the exit. What do you ask?",
+    "ground_truth_answer": "Ask either guard: 'If I asked the other guard which door is exit, what would he say?' Then take the opposite door.",
+    "reasoning_steps": [
+      "Logic puzzle requiring meta-reasoning",
+      "Both knights/knaves trick neutralizes to same answer"
+    ],
+    "tags": [
+      "logic_puzzle"
+    ]
+  },
+  {
+    "id": "CREA_010",
+    "category": "Creative Problem Solving",
+    "difficulty": "medium",
+    "question": "How would you weigh an elephant using a scale that's too small?",
+    "ground_truth_answer": "Measure water displacement (Archimedes principle) or compare with multiple smaller weights",
+    "reasoning_steps": [
+      "Creative use of physics principles"
+    ],
+    "tags": [
+      "measurement"
+    ]
+  },
+  {
+    "id": "CREA_011",
+    "category": "Creative Problem Solving",
+    "difficulty": "hard",
+    "question": "Design a warning system to alert deaf people of fire. What features would it have?",
+    "ground_truth_answer": "Flashing lights, vibrations, visual displays, accessibility for all",
+    "reasoning_steps": [
+      "Consider accessibility",
+      "Multiple sensory channels",
+      "Research actual practices"
+    ],
+    "tags": [
+      "design_thinking",
+      "accessibility"
+    ]
+  },
+  {
+    "id": "CREA_012",
+    "category": "Creative Problem Solving",
+    "difficulty": "hard",
+    "question": "How would you teach a person who's never seen color before what 'red' is?",
+    "ground_truth_answer": "Use metaphors (heat, emotion), describe associations, use objects they know",
+    "reasoning_steps": [
+      "Explain through familiar concepts",
+      "Use sensory associations"
+    ],
+    "tags": [
+      "philosophy",
+      "qualia"
+    ]
+  },
+  {
+    "id": "CREA_013",
+    "category": "Creative Problem Solving",
+    "difficulty": "hard",
+    "question": "Design a more efficient system for underground parking. What changes?",
+    "ground_truth_answer": "Automated systems, spiral layouts, identification technology, better navigation",
+    "reasoning_steps": [
+      "Systems thinking",
+      "User experience design"
+    ],
+    "tags": [
+      "system_design",
+      "innovation"
+    ]
+  },
+  {
+    "id": "CREA_014",
+    "category": "Creative Problem Solving",
+    "difficulty": "hard",
+    "question": "If you had to communicate with an alien species that doesn't speak/hear, how would you?",
+    "ground_truth_answer": "Visual signals, mathematics, patterns, technology, attempt understanding of their communication method",
+    "reasoning_steps": [
+      "Universal language concepts",
+      "Scientific approach"
+    ],
+    "tags": [
+      "communication",
+      "SETI"
+    ]
+  },
+  {
+    "id": "MULTI_001",
+    "category": "Multi-Domain Integration",
+    "difficulty": "easy",
+    "question": "A book costs $12 with 10% discount. Final price?",
+    "ground_truth_answer": "$10.80",
+    "reasoning_steps": [
+      "10% of $12 = $1.20",
+      "$ 12 - $1.20 = $10.80"
+    ],
+    "tags": [
+      "math",
+      "commerce"
+    ]
+  },
+  {
+    "id": "MULTI_002",
+    "category": "Multi-Domain Integration",
+    "difficulty": "easy",
+    "question": "If code outputs 'HELLO', what was input if print(x.upper())?",
+    "ground_truth_answer": "hello",
+    "reasoning_steps": [
+      "upper() converts to uppercase",
+      "Input 'hello' produces 'HELLO'"
+    ],
+    "tags": [
+      "code",
+      "logic"
+    ]
+  },
+  {
+    "id": "MULTI_003",
+    "category": "Multi-Domain Integration",
+    "difficulty": "easy",
+    "question": "A recipe needs 2 cups flour. Doubling recipe needs?",
+    "ground_truth_answer": "4 cups flour",
+    "reasoning_steps": [
+      "2 cups \u00d7 2 = 4 cups"
+    ],
+    "tags": [
+      "math",
+      "cooking"
+    ]
+  },
+  {
+    "id": "MULTI_004",
+    "category": "Multi-Domain Integration",
+    "difficulty": "easy",
+    "question": "If Shakespeare wrote 37 plays and you've read 10, what percent left?",
+    "ground_truth_answer": "73% (approximately)",
+    "reasoning_steps": [
+      "Left: 37 - 10 = 27",
+      "27/37 \u2248 0.73 = 73%"
+    ],
+    "tags": [
+      "math",
+      "literature"
+    ]
+  },
+  {
+    "id": "MULTI_005",
+    "category": "Multi-Domain Integration",
+    "difficulty": "medium",
+    "question": "A company has 100 employees (60% code, 40% non-code). If non-code employees are 40, is the data consistent?",
+    "ground_truth_answer": "No (40% of 100 = 40, but that means 60 code, which checks out - YES it's consistent)",
+    "reasoning_steps": [
+      "40% of 100 = 40 non-code \u2713",
+      "60% of 100 = 60 code \u2713",
+      "Total: 40 + 60 = 100 \u2713"
+    ],
+    "tags": [
+      "math",
+      "logic",
+      "data"
+    ]
+  },
+  {
+    "id": "MULTI_006",
+    "category": "Multi-Domain Integration",
+    "difficulty": "medium",
+    "question": "Historical fact: Leonardo da Vinci was painter + mathematician. What did he design using both skills?",
+    "ground_truth_answer": "Inventions like flying machines, mechanical designs (used art + math/physics)",
+    "reasoning_steps": [
+      "Da Vinci combined disciplines",
+      "Art: visualization, design",
+      "Math/Physics: mechanics, proportions"
+    ],
+    "tags": [
+      "history",
+      "art",
+      "science"
+    ]
+  },
+  {
+    "id": "MULTI_007",
+    "category": "Multi-Domain Integration",
+    "difficulty": "medium",
+    "question": "A programmer needs 10 hours to write code. With debugging, it's 15 total. Debugging is what % of time?",
+    "ground_truth_answer": "33.3% (5/15)",
+    "reasoning_steps": [
+      "Debugging = 15 - 10 = 5 hours",
+      "5/15 = 0.333 = 33.3%"
+    ],
+    "tags": [
+      "math",
+      "programming"
+    ]
+  },
+  {
+    "id": "MULTI_008",
+    "category": "Multi-Domain Integration",
+    "difficulty": "hard",
+    "question": "Process 10,000 documents in 0.1 seconds each. 15 minutes available. Possible?",
+    "ground_truth_answer": "No (10,000 \u00d7 0.1s = 1,000 seconds = 16.67 minutes > 15 minutes)",
+    "reasoning_steps": [
+      "Total time needed: 10,000 \u00d7 0.1 = 1,000 seconds",
+      "1,000 seconds \u00f7 60 = 16.67 minutes",
+      "16.67 min > 15 min \u2192 Not possible"
+    ],
+    "tags": [
+      "math",
+      "optimization",
+      "programming"
+    ]
+  },
+  {
+    "id": "MULTI_009",
+    "category": "Multi-Domain Integration",
+    "difficulty": "hard",
+    "question": "A translation from English \u2192 French loses 20% meaning. From French \u2192 German loses 15%. What % meaning lost end-to-end?",
+    "ground_truth_answer": "32% (1 - (0.8 \u00d7 0.85) = 1 - 0.68 = 0.32)",
+    "reasoning_steps": [
+      "After English\u2192French: 80% meaning retained",
+      "After French\u2192German: 80% \u00d7 85% = 68%",
+      "Meaning lost: 100% - 68% = 32%"
+    ],
+    "tags": [
+      "math",
+      "language",
+      "logic"
+    ]
+  },
+  {
+    "id": "MULTI_010",
+    "category": "Multi-Domain Integration",
+    "difficulty": "hard",
+    "question": "If AI can solve 70% of coding problems and handles 80% of simple logic, what % of mixed tasks solved (equal distribution)?",
+    "ground_truth_answer": "75% (average: (70% + 80%)/2)",
+    "reasoning_steps": [
+      "50% coding + 50% logic",
+      "Average: 0.5\u00d770% + 0.5\u00d780% = 35% + 40% = 75%"
+    ],
+    "tags": [
+      "math",
+      "AI",
+      "estimation"
+    ]
+  },
+  {
+    "id": "MULTI_011",
+    "category": "Multi-Domain Integration",
+    "difficulty": "hard",
+    "question": "Summarize: Machine learning improves by 5% yearly. Started at 70%. In 5 years, approximately what accuracy?",
+    "ground_truth_answer": "Approximately 95% (not linear due to ceiling effect, but ~95%)",
+    "reasoning_steps": [
+      "Year 1: 70% + 5% = 75%",
+      "Year 2: 75% + 5% = 80%",
+      "Year 3: 80% + 5% = 85%",
+      "Year 4: 85% + 5% = 90%",
+      "Year 5: 90% + 5% = 95%"
+    ],
+    "tags": [
+      "math",
+      "ai",
+      "forecasting"
+    ]
+  },
+  {
+    "id": "MULTI_012",
+    "category": "Multi-Domain Integration",
+    "difficulty": "hard",
+    "question": "Ethics: Is using AI to write code ethical if it might replace programmers? Explain.",
+    "ground_truth_answer": "Complex - benefits (efficiency, accessibility) vs concerns (job displacement, quality). Context-dependent.",
+    "reasoning_steps": [
+      "Pros: Faster development, helps learners, increases productivity",
+      "Cons: Job losses, code quality questions, skill devaluation",
+      "Nuanced issue requiring stakeholder input"
+    ],
+    "tags": [
+      "ethics",
+      "ai",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "MULTI_013",
+    "category": "Multi-Domain Integration",
+    "difficulty": "hard",
+    "question": "A doctor must choose: drug works 90% of time (risks in 10%), no drug: disease progresses (100% worse). Best choice?",
+    "ground_truth_answer": "Drug likely better (90% benefit vs 100% progression), but depends on severity of risk",
+    "reasoning_steps": [
+      "Drug: 90% success, 10% risk",
+      "No drug: 100% failure",
+      "Risk assessment needed"
+    ],
+    "tags": [
+      "medicine",
+      "decision_making",
+      "statistics"
+    ]
+  },
+  {
+    "id": "MULTI_014",
+    "category": "Multi-Domain Integration",
+    "difficulty": "hard",
+    "question": "Integrate: Math (statistics), Psychology (bias), Code (ML model). What is most important to avoid?",
+    "ground_truth_answer": "Algorithmic bias (mathematical model + programmer bias + human psychological bias = biased outputs)",
+    "reasoning_steps": [
+      "Statistics: data quality",
+      "Psychology: cognitive biases in design",
+      "Code: implementation of bias",
+      "All three contribute to system bias"
+    ],
+    "tags": [
+      "ai",
+      "ethics",
+      "interdisciplinary"
+    ]
+  }
+]
