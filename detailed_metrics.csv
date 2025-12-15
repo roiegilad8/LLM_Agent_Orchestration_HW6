@@ -1,0 +1,13 @@
+Model,Technique,Accuracy,Std_Dev,Min,Max,Median,Total_Questions
+GPT,Baseline,0.0,0.0,0.0,0.0,0.0,100
+GPT,FewShot,0.0,0.0,0.0,0.0,0.0,100
+GPT,CoT,0.0,0.0,0.0,0.0,0.0,100
+GPT,ReACT,0.0,0.0,0.0,0.0,0.0,100
+Grok,Baseline,0.0,0.0,0.0,0.0,0.0,100
+Grok,FewShot,0.0,0.0,0.0,0.0,0.0,100
+Grok,CoT,0.0,0.0,0.0,0.0,0.0,100
+Grok,ReACT,0.0,0.0,0.0,0.0,0.0,100
+Perplexity,Baseline,0.0,0.0,0.0,0.0,0.0,100
+Perplexity,FewShot,0.0,0.0,0.0,0.0,0.0,100
+Perplexity,CoT,0.0,0.0,0.0,0.0,0.0,100
+Perplexity,ReACT,0.0,0.0,0.0,0.0,0.0,100
