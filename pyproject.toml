@@ -1,3 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm_agent_orchestration_hw6"
+version = "0.1.0"
+description = "LLM Agent Orchestration - Prompt Engineering Benchmark"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+  { name = "Roie Gilad" }
+]
+license = { text = "MIT" }
+
+dependencies = [
+  "pandas",
+  "matplotlib",
+  "seaborn",
+  "python-dotenv",
+  "tqdm",
+  # תוסיף כאן כל ספרייה שאתה באמת משתמש בה בקוד
+]
+
+[project.urls]
+"Homepage" = "https://github.com/roiegilad8/LLM_Agent_Orchestration_HW6"
+"Source"   = "https://github.com/roiegilad8/LLM_Agent_Orchestration_HW6"
+
+
 [tool.pylint.messages_control]
 disable = [
     "C0111",  # missing-docstring
