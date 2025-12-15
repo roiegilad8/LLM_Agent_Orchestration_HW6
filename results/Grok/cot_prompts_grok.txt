@@ -1,0 +1,704 @@
+
+```
+----- Prompt for Question 1 -----
+Let's think step by step.
+Question: What is 15 + 23?
+Step 1: Break it down into tens and ones: 15 is 10 + 5, 23 is 20 + 3.
+Step 2: Add the tens (10 + 20 = 30) then the ones (5 + 3 = 8), total 30 + 8 = 38.
+Answer: 38
+
+----- Prompt for Question 2 -----
+Let's think step by step.
+Question: What is 100 - 45?
+Step 1: Subtract 40 from 100 first: 100 - 40 = 60.
+Step 2: Then subtract the remaining 5: 60 - 5 = 55.
+Answer: 55
+
+----- Prompt for Question 3 -----
+Let's think step by step.
+Question: What is 7 × 8?
+Step 1: Recall that 7 × 8 = 56 (or compute 7 × 10 = 70, subtract 7 × 2 = 14 → 70 - 14 = 56).
+Step 2: Verify: 8 × 7 = 56.
+Answer: 56
+
+----- Prompt for Question 4 -----
+Let's think step by step.
+Question: What is 144 ÷ 12?
+Step 1: 12 × 12 = 144.
+Step 2: So 144 ÷ 12 = 12.
+Answer: 12
+
+----- Prompt for Question 5 -----
+Let's think step by step.
+Question: Is 17 a prime number?
+Step 1: A prime number has no divisors other than 1 and itself.
+Step 2: Check divisibility by primes less than √17 ≈ 4.1: 2 (odd), 3 (1+7=8 not divisible by 3). No divisors.
+Answer: Yes
+
+----- Prompt for Question 6 -----
+Let's think step by step.
+Question: Solve: 2x + 5 = 13
+Step 1: Subtract 5 from both sides: 2x = 8.
+Step 2: Divide both sides by 2: x = 4.
+Answer: x = 4
+
+----- Prompt for Question 7 -----
+Let's think step by step.
+Question: What is 25% of 200?
+Step 1: 25% = 0.25 or ¼.
+Step 2: ¼ of 200 = 50 (or 0.25 × 200 = 50).
+Answer: 50
+
+----- Prompt for Question 8 -----
+Let's think step by step.
+Question: What is the area of a rectangle with width 5 and length 12?
+Step 1: Area = length × width.
+Step 2: 12 × 5 = 60.
+Answer: 60
+
+----- Prompt for Question 9 -----
+Let's think step by step.
+Question: What is 3³?
+Step 1: 3³ means 3 × 3 × 3.
+Step 2: 3 × 3 = 9, 9 × 3 = 27.
+Answer: 27
+
+----- Prompt for Question 10 -----
+Let's think step by step.
+Question: What is √64?
+Step 1: What number multiplied by itself gives 64?
+Step 2: 8 × 8 = 64.
+Answer: 8
+
+----- Prompt for Question 11 -----
+Let's think step by step.
+Question: A train travels 300 km at 60 km/h. How many hours?
+Step 1: Time = distance ÷ speed.
+Step 2: 300 ÷ 60 = 5 hours.
+Answer: 5
+
+----- Prompt for Question 12 -----
+Let's think step by step.
+Question: Solve: x² - 5x + 6 = 0
+Step 1: Factor: need two numbers that multiply to 6 and add to -5 → -2 and -3.
+Step 2: (x - 2)(x - 3) = 0 → x = 2 or x = 3.
+Answer: x = 2 or x = 3
+
+----- Prompt for Question 13 -----
+Let's think step by step.
+Question: What is the 7th number in sequence: 2, 4, 8, 16, ...?
+Step 1: Geometric sequence, each term ×2 → powers of 2 starting from 2¹.
+Step 2: 7th term is 2⁷ = 128.
+Answer: 128
+
+----- Prompt for Question 14 -----
+Let's think step by step.
+Question: If a circle has radius 5, what is its circumference?
+Step 1: Circumference = 2πr.
+Step 2: 2 × π × 5 = 10π.
+Answer: 10π
+
+----- Prompt for Question 15 -----
+Let's think step by step.
+Question: What is log₂(32)?
+Step 1: log₂(32) asks “2 to what power equals 32?”
+Step 2: 2⁵ = 32.
+Answer: 5
+
+----- Prompt for Question 16 -----
+Let's think step by step.
+Question: All dogs are animals. Rover is a dog. Is Rover an animal?
+Step 1: Syllogism: All dogs are animals, Rover is a dog.
+Step 2: Therefore Rover is an animal.
+Answer: Yes
+
+----- Prompt for Question 17 -----
+Let's think step by step.
+Question: If A is true and B is true, what is A AND B?
+Step 1: AND is true only if both are true.
+Step 2: True AND True = True.
+Answer: True
+
+----- Prompt for Question 18 -----
+Let's think step by step.
+Question: If A is false and B is true, what is A OR B?
+Step 1: OR is true if at least one is true.
+Step 2: False OR True = True.
+Answer: True
+
+----- Prompt for Question 19 -----
+Let's think step by step.
+Question: What is NOT(True)?
+Step 1: NOT inverts the value.
+Step 2: NOT True = False.
+Answer: False
+
+----- Prompt for Question 20 -----
+Let's think step by step.
+Question: If it rains, the grass gets wet. It rained. Did the grass get wet?
+Step 1: Modus ponens: (P → Q), P.
+Step 2: Therefore Q (grass got wet).
+Answer: Yes
+
+----- Prompt for Question 21 -----
+Let's think step by step.
+Question: No cats are dogs. Fluffy is a cat. Is Fluffy a dog?
+Step 1: No cats are dogs means cats and dogs are disjoint.
+Step 2: Fluffy is a cat, so not a dog.
+Answer: No
+
+----- Prompt for Question 22 -----
+Let's think step by step.
+Question: Either A or B is true (but not both). A is false. Is B true?
+Step 1: Exclusive OR: exactly one is true.
+Step 2: A false → B must be true.
+Answer: Yes
+
+----- Prompt for Question 23 -----
+Let's think step by step.
+Question: If the key fits, the lock opens. The lock is closed. Is the key fitting?
+Step 1: We have P → Q and ¬Q (lock closed = not open).
+Step 2: Modus tollens: therefore ¬P (key does not fit).
+Answer: No
+
+----- Prompt for Question 24 -----
+Let's think step by step.
+Question: All A are B. All B are C. Are all A also C?
+Step 1: Transitivity of subset relation.
+Step 2: A ⊆ B ⊆ C → A ⊆ C.
+Answer: Yes
+
+----- Prompt for Question 25 -----
+Let's think step by step.
+Question: In a group of 100 people, 60 like coffee, 50 like tea. At least how many like both?
+Step 1: Maximum without overlap is 60 + 50 = 110 > 100, so overlap needed.
+Step 2: Minimum overlap = 60 + 50 - 100 = 10.
+Answer: 10
+
+----- Prompt for Question 26 -----
+Let's think step by step.
+Question: Knights always tell truth, Knaves always lie. They say 'I am a Knave'. What are they?
+Step 1: If Knight, statement would be true, but Knight can't say they are Knave.
+Step 2: Must be Knave (lying about being a Knave).
+Answer: Knave
+
+----- Prompt for Question 27 -----
+Let's think step by step.
+Question: There are 3 boxes. One has gold, two have rocks. You pick box A. Host opens box B (rock). Should you switch to box C?
+Step 1: Monty Hall problem: initial probability 1/3 for A, 2/3 for B or C.
+Step 2: Host reveals rock in B → probability shifts to 2/3 for C. Switch.
+Answer: Yes
+
+----- Prompt for Question 28 -----
+Let's think step by step.
+Question: Is 'This statement is false' self-referentially true?
+Step 1: If true, then it is false → contradiction.
+Step 2: If false, then it is true → contradiction. Paradox.
+Answer: No
+
+----- Prompt for Question 29 -----
+Let's think step by step.
+Question: If all X are Y, all Y are Z, and some Z are not W, can we conclude some X are not W?
+Step 1: All X are Z.
+Step 2: But the Z that are not W might not include any X → cannot conclude.
+Answer: No
+
+----- Prompt for Question 30 -----
+Let's think step by step.
+Question: A and B enter a room. A says 'At least one of us is a knave'. What can you deduce?
+Step 1: If A Knight, statement true → B knave.
+Step 2: If A Knave, statement false → both knights → contradiction. So A Knight, B Knave.
+Answer: A is Knight, B is Knave
+
+----- Prompt for Question 31 -----
+Let's think step by step.
+Question: What is the opposite of 'hot'?
+Step 1: In temperature context.
+Step 2: The common antonym is cold.
+Answer: cold
+
+----- Prompt for Question 32 -----
+Let's think step by step.
+Question: Is 'book' a noun or verb?
+Step 1: English homonyms.
+Step 2: It can function as both.
+Answer: Both
+
+----- Prompt for Question 33 -----
+Let's think step by step.
+Question: What does 'ambiguous' mean?
+Step 1: Having multiple possible meanings.
+Step 2: Open to more than one interpretation.
+Answer: having more than one possible meaning
+
+----- Prompt for Question 34 -----
+Let's think step by step.
+Question: What is a synonym for 'happy'?
+Step 1: Common synonyms include joyful, glad, cheerful.
+Step 2: Joyful is a direct synonym.
+Answer: joyful
+
+----- Prompt for Question 35 -----
+Let's think step by step.
+Question: Complete: 'The dog ___ the bone.' (buried/bury/buries)?
+Step 1: Sentence is past tense.
+Step 2: Past form of bury is buried.
+Answer: buried
+
+----- Prompt for Question 36 -----
+Let's think step by step.
+Question: What does 'pragmatic' mean?
+Step 1: Focused on practical outcomes.
+Step 2: Dealing with things sensibly and realistically.
+Answer: practical and focused on results
+
+----- Prompt for Question 37 -----
+Let's think step by step.
+Question: Is 'they' a singular or plural pronoun?
+Step 1: Traditionally plural.
+Step 2: Modern English also accepts singular gender-neutral they.
+Answer: Both
+
+----- Prompt for Question 38 -----
+Let's think step by step.
+Question: What is the difference between 'imply' and 'infer'?
+Step 1: Imply = speaker suggests indirectly.
+Step 2: Infer = listener draws conclusion.
+Answer: Imply means to suggest; infer means to deduce
+
+----- Prompt for Question 39 -----
+Let's think step by step.
+Question: What is an idiom? Give an example.
+Step 1: Phrase with figurative meaning.
+Step 2: Example: "kick the bucket" = die.
+Answer: A figurative expression; e.g., "raining cats and dogs"
+
+----- Prompt for Question 40 -----
+Let's think step by step.
+Question: Is 'unique' gradable (can something be 'very unique')?
+Step 1: Unique means one of a kind (absolute).
+Step 2: Traditionally not gradable, though commonly used that way.
+Answer: No (prescriptively)
+
+----- Prompt for Question 41 -----
+Let's think step by step.
+Question: What is the semantic difference between 'incomplete' and 'unfinished'?
+Step 1: Incomplete = missing parts.
+Step 2: Unfinished = started but not completed. Subtle overlap but unfinished implies progress.
+Answer: Incomplete lacks required parts; unfinished was started but not done
+
+----- Prompt for Question 42 -----
+Let's think step by step.
+Question: Is language prescriptive or descriptive, and why does it matter?
+Step 1: Prescriptive = rules of "correct" usage; descriptive = how it is actually used.
+Step 2: Dictionaries/linguistics are descriptive. Matters for understanding evolution vs rigid rules.
+Answer: Linguistics is descriptive; it matters because language changes
+
+----- Prompt for Question 43 -----
+Let's think step by step.
+Question: What is the Sapir-Whorf hypothesis about language?
+Step 1: Language influences thought.
+Step 2: Strong version: determines thought; weak: shapes thought.
+Answer: Language influences or determines how we think
+
+----- Prompt for Question 44 -----
+Let's think step by step.
+Question: Can a word be both a homonym and a homophone? Give example.
+Step 1: Homonym = same spelling/sound, different meaning; homophone = same sound.
+Step 2: Yes, e.g., "bank" (river bank/money bank) is homonym and homophone with itself.
+Answer: Yes; e.g., "bear" (animal) and "bare"
+
+----- Prompt for Question 45 -----
+Let's think step by step.
+Question: What does print('hello') output?
+Step 1: print function outputs to console.
+Step 2: It prints the string.
+Answer: hello
+
+----- Prompt for Question 46 -----
+Let's think step by step.
+Question: What is x after: x = 5; x = x + 3?
+Step 1: First assignment x = 5.
+Step 2: Then x becomes 5 + 3 = 8.
+Answer: 8
+
+----- Prompt for Question 47 -----
+Let's think step by step.
+Question: What does len('hello') return?
+Step 1: len() returns length of string.
+Step 2: 'hello' has 5 characters.
+Answer: 5
+
+----- Prompt for Question 48 -----
+Let's think step by step.
+Question: Is 5 > 3 true or false?
+Step 1: Comparison operator.
+Step 2: 5 is greater than 3.
+Answer: True
+
+----- Prompt for Question 49 -----
+Let's think step by step.
+Question: What is 10 % 3 (modulo)?
+Step 1: Modulo is remainder after division.
+Step 2: 10 ÷ 3 = 3 remainder 1.
+Answer: 1
+
+----- Prompt for Question 50 -----
+Let's think step by step.
+Question: x = [1, 2, 3]; x[1] = ?
+Step 1: List indexing starts at 0.
+Step 2: Index 1 is second element.
+Answer: 2
+
+----- Prompt for Question 51 -----
+Let's think step by step.
+Question: What does 'hello'.upper() return?
+Step 1: upper() converts to uppercase.
+Step 2: All letters become capital.
+Answer: HELLO
+
+----- Prompt for Question 52 -----
+Let's think step by step.
+Question: for i in range(3): print(i) outputs?
+Step 1: range(3) = 0,1,2.
+Step 2: Prints each on new line.
+Answer: 0\n1\n2
+
+----- Prompt for Question 53 -----
+Let's think step by step.
+Question: What is {'a': 1, 'b': 2}['a']?
+Step 1: Dictionary key access.
+Step 2: Key 'a' maps to 1.
+Answer: 1
+
+----- Prompt for Question 54 -----
+Let's think step by step.
+Question: if 5 > 3: print('yes'); What prints?
+Step 1: Condition 5 > 3 is true.
+Step 2: Executes print.
+Answer: yes
+
+----- Prompt for Question 55 -----
+Let's think step by step.
+Question: x = [i*2 for i in [1,2,3]]; x = ?
+Step 1: List comprehension doubles each element.
+Step 2: 2,4,6.
+Answer: [2, 4, 6]
+
+----- Prompt for Question 56 -----
+Let's think step by step.
+Question: def f(x): return x**2; f(5) = ?
+Step 1: Function squares input.
+Step 2: 5² = 25.
+Answer: 25
+
+----- Prompt for Question 57 -----
+Let's think step by step.
+Question: x = [1,2,3]; x.pop() returns?
+Step 1: pop() removes and returns last element.
+Step 2: Last is 3.
+Answer: 3
+
+----- Prompt for Question 58 -----
+Let's think step by step.
+Question: What is try/except used for?
+Step 1: Error handling.
+Step 2: Catch and handle exceptions.
+Answer: Handling exceptions/errors gracefully
+
+----- Prompt for Question 59 -----
+Let's think step by step.
+Question: What is the capital of France?
+Step 1: Well-known fact.
+Step 2: Paris.
+Answer: Paris
+
+----- Prompt for Question 60 -----
+Let's think step by step.
+Question: What year did World War 2 end?
+Step 1: Ended with Japan's surrender.
+Step 2: 1945.
+Answer: 1945
+
+----- Prompt for Question 61 -----
+Let's think step by step.
+Question: What is the largest planet in our solar system?
+Step 1: By mass and diameter.
+Step 2: Jupiter.
+Answer: Jupiter
+
+----- Prompt for Question 62 -----
+Let's think step by step.
+Question: What is H2O?
+Step 1: Chemical formula.
+Step 2: Water.
+Answer: Water
+
+----- Prompt for Question 63 -----
+Let's think step by step.
+Question: Who wrote 'Romeo and Juliet'?
+Step 1: Famous playwright.
+Step 2: William Shakespeare.
+Answer: William Shakespeare
+
+----- Prompt for Question 64 -----
+Let's think step by step.
+Question: What is the smallest country by area?
+Step 1: Sovereign state.
+Step 2: Vatican City.
+Answer: Vatican City
+
+----- Prompt for Question 65 -----
+Let's think step by step.
+Question: What is the speed of light?
+Step 1: In vacuum.
+Step 2: Approximately 300,000 km/s.
+Answer: 299,792 km/s (or approximately 300,000 km/s)
+
+----- Prompt for Question 66 -----
+Let's think step by step.
+Question: How many continents are there?
+Step 1: Standard model.
+Step 2: 7.
+Answer: 7
+
+----- Prompt for Question 67 -----
+Let's think step by step.
+Question: Who was the first President of the United States?
+Step 1: Historical fact.
+Step 2: George Washington.
+Answer: George Washington
+
+----- Prompt for Question 68 -----
+Let's think step by step.
+Question: What is the chemical symbol for Gold?
+Step 1: Periodic table.
+Step 2: Au.
+Answer: Au
+
+----- Prompt for Question 69 -----
+Let's think step by step.
+Question: Who developed the theory of evolution?
+Step 1: Natural selection.
+Step 2: Charles Darwin.
+Answer: Charles Darwin
+
+----- Prompt for Question 70 -----
+Let's think step by step.
+Question: What philosopher is known for 'Categorical Imperative'?
+Step 1: Deontological ethics.
+Step 2: Immanuel Kant.
+Answer: Immanuel Kant
+
+----- Prompt for Question 71 -----
+Let's think step by step.
+Question: Which Renaissance artist painted the Sistine Chapel ceiling?
+Step 1: Famous fresco.
+Step 2: Michelangelo.
+Answer: Michelangelo
+
+----- Prompt for Question 72 -----
+Let's think step by step.
+Question: What is the Gutenberg-Richter relation used for?
+Step 1: Seismology.
+Step 2: Relates frequency and magnitude of earthquakes.
+Answer: Relating the frequency and magnitude of earthquakes
+
+----- Prompt for Question 73 -----
+Let's think step by step.
+Question: If you had 2 pieces of string and needed to make 4 pieces, what could you do?
+Step 1: Lateral thinking.
+Step 2: Cut each into two pieces.
+Answer: Cut each of the two pieces in half
+
+----- Prompt for Question 74 -----
+Let's think step by step.
+Question: How can you make a circle into a square?
+Step 1: Creative/lateral.
+Step 2: Cut it out of paper and fold or reinterpret.
+Answer: Cut the circle out and call the hole a square (or use scissors to reshape)
+
+----- Prompt for Question 75 -----
+Let's think step by step.
+Question: What can you use as a hammer if you don't have one?
+Step 1: Improvisation.
+Step 2: A rock or heavy object.
+Answer: A rock (or shoe, etc.)
+
+----- Prompt for Question 76 -----
+Let's think step by step.
+Question: If a cup is upside down, how do you turn it right-side up?
+Step 1: Lateral thinking.
+Step 2: Turn it around (rotate 180 degrees horizontally).
+Answer: Turn it 180 degrees (spin it)
+
+----- Prompt for Question 77 -----
+Let's think step by step.
+Question: You have 3 coins. Make them into a triangle. How?
+Step 1: Creative arrangement.
+Step 2: Stack them into a pyramid (3D triangle).
+Answer: Stack two on bottom, one on top
+
+----- Prompt for Question 78 -----
+Let's think step by step.
+Question: You have a jug of 3L and 5L. Measure exactly 4L. How?
+Step 1: Classic water jug problem.
+Step 2: Fill 5L, pour into 3L (leaves 2L in 5L), empty 3L, pour 2L into 3L, fill 5L, pour into 3L until full (adds 1L, leaves 4L in 5L).
+Answer: Fill 5L → pour to 3L → empty 3L → pour remaining 2L to 3L → fill 5L → pour to 3L until full → 4L left in 5L
+
+----- Prompt for Question 79 -----
+Let's think step by step.
+Question: Move one stick to make this correct: VI + IV = IX (Roman numerals)
+Step 1: Roman numerals with matches.
+Step 2: Move one stick from V to make IX + I = X (9 + 1 = 10).
+Answer: Move a stick from the second I to make IX + I = X
+
+----- Prompt for Question 80 -----
+Let's think step by step.
+Question: How can you connect 9 dots in a 3×3 grid with 4 straight lines without lifting pen?
+Step 1: Think outside the box literally.
+Step 2: Lines extend beyond the grid boundaries.
+Answer: Start outside, draw lines that go beyond the imaginary box
+
+----- Prompt for Question 81 -----
+Let's think step by step.
+Question: A man is trapped in a room with no windows. His only option is a door. The door has two guards. One always lies, one always tells truth. You can ask ONE question to find the exit. What do you ask?
+Step 1: Classic two guards puzzle (both doors, one to freedom one to death usually).
+Step 2: Ask either: "If I asked the other guard which door leads to freedom, what would he say?" Then choose the opposite.
+Answer: Ask one guard: "What would the other guard say is the safe door?" Then take the opposite door
+
+----- Prompt for Question 82 -----
+Let's think step by step.
+Question: How would you weigh an elephant using a scale that's too small?
+Step 1: Creative solution.
+Step 2: Put elephant on a boat, mark water level, remove elephant, fill with known-weight objects until same level.
+Answer: Put elephant on boat, mark waterline, replace with known weights
+
+----- Prompt for Question 83 -----
+Let's think step by step.
+Question: Design a warning system to alert deaf people of fire. What features would it have?
+Step 1: Visual and tactile alerts.
+Step 2: Flashing lights, vibrating devices, strong visual strobes.
+Answer: Bright flashing lights and bed/shoe vibrators
+
+----- Prompt for Question 84 -----
+Let's think step by step.
+Question: How would you teach a person who's never seen color before what 'red' is?
+Step 1: Qualia problem (hard or impossible).
+Step 2: Use analogies (warmth, emotion) but ultimately limited.
+Answer: Use associations (danger, heat) but true experience impossible
+
+----- Prompt for Question 85 -----
+Let's think step by step.
+Question: Design a more efficient system for underground parking. What changes?
+Step 1: Optimize space and flow.
+Step 2: Automated valet, stacked parking, sensors, angled spots.
+Answer: Robotic valet parking, real-time space sensors, vertical stacking
+
+----- Prompt for Question 86 -----
+Let's think step by step.
+Question: If you had to communicate with an alien species that doesn't speak/hear, how would you?
+Step 1: Non-verbal universal methods.
+Step 2: Mathematics, images, music, physical gestures.
+Answer: Use mathematics, pictures (Pioneer plaque style), or basic physics demonstrations
+
+----- Prompt for Question 87 -----
+Let's think step by step.
+Question: A book costs $12 with 10% discount. Final price?
+Step 1: Discount = 10% of 12 = 1.2.
+Step 2: 12 - 1.2 = 10.8.
+Answer: $10.80
+
+----- Prompt for Question 88 -----
+Let's think step by step.
+Question: If code outputs 'HELLO', what was input if print(x.upper())?
+Step 1: upper() converts to uppercase.
+Step 2: Any case variation of "hello".
+Answer: hello (or any casing)
+
+----- Prompt for Question 89 -----
+Let's think step by step.
+Question: A recipe needs 2 cups flour. Doubling recipe needs?
+Step 1: Double all ingredients.
+Step 2: 2 × 2 = 4 cups.
+Answer: 4 cups
+
+----- Prompt for Question 90 -----
+Let's think step by step.
+Question: If Shakespeare wrote 37 plays and you've read 10, what percent left?
+Step 1: Read 10, total 37.
+Step 2: Left = 27, 27/37 ≈ 73%.
+Answer: approximately 73%
+
+----- Prompt for Question 91 -----
+Let's think step by step.
+Question: A company has 100 employees (60% code, 40% non-code). If non-code employees are 40, is the data consistent?
+Step 1: 40% of 100 = 40 non-code.
+Step 2: Yes, matches exactly.
+Answer: Yes
+
+----- Prompt for Question 92 -----
+Let's think step by step.
+Question: Historical fact: Leonardo da Vinci was painter + mathematician. What did he design using both skills?
+Step 1: Combined art and geometry.
+Step 2: Vitruvian Man or perspective techniques, or machines.
+Answer: Vitruvian Man (proportions) or parachute/bridge designs
+
+----- Prompt for Question 93 -----
+Let's think step by step.
+Question: A programmer needs 10 hours to write code. With debugging, it's 15 total. Debugging is what % of time?
+Step 1: Debugging time = 15 - 10 = 5 hours.
+Step 2: 5/15 ≈ 33.3%.
+Answer: approximately 33%
+
+----- Prompt for Question 94 -----
+Let's think step by step.
+Question: Process 10,000 documents in 0.1 seconds each. 15 minutes available. Possible?
+Step 1: Total time needed = 10,000 × 0.1 = 1,000 seconds.
+Step 2: 15 minutes = 900 seconds. 1,000 > 900 → no.
+Answer: No
+
+----- Prompt for Question 95 -----
+Let's think step by step.
+Question: A translation from English → French loses 20% meaning. From French → German loses 15%. What % meaning lost end-to-end?
+Step 1: Not additive. After first: 80% remains.
+Step 2: Second loses 15% of remaining: 80% × 0.85 = 68% remains → 32% lost.
+Answer: 32%
+
+----- Prompt for Question 96 -----
+Let's think step by step.
+Question: If AI can solve 70% of coding problems and handles 80% of simple logic, what % of mixed tasks solved (equal distribution)?
+Step 1: Assume 50% coding, 50% logic.
+Step 2: Expected solve rate = 0.5×70% + 0.5×80% = 75%.
+Answer: 75%
+
+----- Prompt for Question 97 -----
+Let's think step by step.
+Question: Summarize: Machine learning improves by 5% yearly. Started at 70%. In 5 years, approximately what accuracy?
+Step 1: Compound growth: each year ×1.05.
+Step 2: 70% × (1.05)^5 ≈ 70% × 1.276 = 89.3%.
+Answer: approximately 89%
+
+----- Prompt for Question 98 -----
+Let's think step by step.
+Question: Ethics: Is using AI to write code ethical if it might replace programmers? Explain.
+Step 1: Tools augment humans (like compilers).
+Step 2: Ethical if used responsibly; job displacement is societal issue, not inherent unethical.
+Answer: Generally ethical as a tool; concerns are about impact, not use itself
+
+----- Prompt for Question 99 -----
+Let's think step by step.
+Question: A doctor must choose: drug works 90% of time (risks in 10%), no drug: disease progresses (100% worse). Best choice?
+Step 1: Expected outcome.
+Step 2: 90% success far better than 0%.
+Answer: Give the drug
+
+----- Prompt for Question 100 -----
+Let's think step by step.
+Question: Integrate: Math (statistics), Psychology (bias), Code (ML model). What is most important to avoid?
+Step 1: Common pitfalls in ML.
+Step 2: Bias (selection, confirmation, data bias) leading to unfair or wrong models.
+Answer: Bias in data or interpretation
+```
+
+All 100 questions are now complete. 

@@ -1,0 +1,105 @@
+----- Answers for few_shot_prompts.txt -----
+
+1. 38
+2. 55
+3. 56
+4. 12
+5. Yes
+6. x = 4
+7. 50
+8. 60
+9. 27
+10. 8
+11. 5 hours
+12. x = 2 or x = 3
+13. 128
+14. 10π (approximately 31.42)
+15. 5
+16. Yes
+17. True
+18. True
+19. False
+20. Yes
+21. No
+22. Yes
+23. Cannot conclude (insufficient information)
+24. Yes
+25. 10
+26. Knight (a Knave cannot say "I am a Knave")
+27. Yes, you should switch (probability becomes 2/3)
+28. No (it's a paradox – the Liar paradox)
+29. No, not necessarily
+30. A is a Knight, B is a Knave
+31. cold
+32. both (noun and verb)
+33. having more than one possible meaning
+34. joyful / glad / cheerful (any accepted)
+35. buried
+36. practical, focused on results rather than theory
+37. both (traditionally plural, now also accepted as singular)
+38. imply = speaker suggests; infer = listener concludes
+39. A phrase with non-literal meaning; e.g., "kick the bucket" = die
+40. No (unique means one of a kind; "very unique" is disputed)
+41. incomplete = not fully done; unfinished = started but not completed
+42. Dictionaries are descriptive (record usage), but style guides are prescriptive; matters for clarity vs. evolution of language
+43. Language influences or determines thought (strong vs. weak versions)
+44. Yes; e.g., "bear" (animal) and "bear" (carry) – same spelling and sound
+45. hello
+46. 8
+47. 5
+48. true
+49. 1
+50. 2
+51. HELLO
+52. 0\n1\n2
+53. 1
+54. yes
+55. [2, 4, 6]
+56. 25
+57. 3 (and list becomes [1, 2])
+58. error/exception handling
+59. Paris
+60. 1945
+61. Jupiter
+62. water
+63. William Shakespeare
+64. Vatican City
+65. approximately 299,792 km/s (or 3 × 10^8 m/s)
+66. 7
+67. George Washington
+68. Au
+69. Charles Darwin
+70. Immanuel Kant
+71. Michelangelo
+72. relating earthquake magnitude and frequency (log scale)
+73. Cut both pieces of string in half
+74. Say "a square" (or draw a square around the circle)
+75. A shoe / rock / anything hard
+76. Turn it around (rotate 180 degrees)
+77. Stack them into a pyramid/triangle shape
+78. Fill 5L → pour into 3L → empty 3L → pour remaining 2L into 3L → fill 5L again → pour into 3L until full (adds 1L) → 4L left in 5L jug
+79. Move one stick from the + to make VI - IV = IX → actually make it IX - VI = III or similar; common answer: move the left stick of + to make V I X = I X (but better: turn + into - and move one from IV)
+   Correct: Move stick to make VI = VI + III or most common: remove one from left to make IX - VI = III (valid equation)
+80. Go outside the box – four lines: start bottom left, go up-right through 3, down-right through 3, left through 3, up-right through last 3
+81. Ask either guard: "If I asked the other guard which door leads to freedom, what would he say?" Then choose the opposite door.
+82. Put the elephant on a boat and mark the water line, remove elephant, fill boat with known-weight objects until same line, calculate total weight
+83. Flashing lights, strong vibration (bed shaker), strobe lights, visual alarms connected to smoke detectors
+84. You can't fully explain the experience (qualia problem), only describe associations (stop signs, apples, fire trucks, etc.)
+85. Spiral ramps instead of floors, automated valet systems, dynamic lighting/signage, sensors for empty spots, vertical stacking robots
+86. Use mathematics (prime numbers, universal constants), images/diagrams (Pioneer plaque style), music/rhythm, gestures, light signals
+87. $10.80
+88. hello (or any lowercase version)
+89. 4 cups
+90. (27/37) × 100 ≈ 73% left
+91. Yes (40 non-coders = 40% → consistent)
+92. Flying machines / ornithopters (combined anatomy, math, and art)
+93. (5/15) × 100 = 33.33%
+94. 10,000 × 0.1s = 1,000s ≈ 16.67 min > 15 min → No, not possible
+95. Not simply 35%; meaning retained ~68% (0.8 × 0.85), so ~32% lost
+96. 75% (average of 70% and 80%)
+97. ~89% (70% × 1.05^5 ≈ 89.5%)
+98. Yes if credited/disclosed; no if presented as fully own work. Tools evolve jobs (like compilers didn't end programming)
+99. Give the drug (expected value far better: 90% cure vs. 0%)
+100. Overfitting / confirmation bias in data selection and model evaluation
+
+----- End of answers -----
