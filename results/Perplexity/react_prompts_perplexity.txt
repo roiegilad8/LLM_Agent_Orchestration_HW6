@@ -1,0 +1,301 @@
+Q1: What is 15 + 23?
+A1: 38
+
+Q2: What is 100 - 45?
+A2: 55
+
+Q3: What is 7 × 8?
+A3: 56
+
+Q4: What is 144 ÷ 12?
+A4: 12
+
+Q5: Is 17 a prime number?
+A5: Yes, 17 is prime.
+
+Q6: Solve: 2x + 5 = 13
+A6: x = 4
+
+Q7: What is 25% of 200?
+A7: 50
+
+Q8: What is the area of a rectangle with width 5 and length 12?
+A8: 60
+
+Q9: What is 3³?
+A9: 27
+
+Q10: What is √64?
+A10: 8
+
+Q11: A train travels 300 km at 60 km/h. How many hours?
+A11: 5 hours
+
+Q12: Solve: x² - 5x + 6 = 0
+A12: x = 2 or x = 3
+
+Q13: What is the 7th number in sequence: 2, 4, 8, 16, ...?
+A13: 64
+
+Q14: If a circle has radius 5, what is its circumference?
+A14: 10π (approximately 31.4)
+
+Q15: What is log₂(32)?
+A15: 5
+
+Q16: All dogs are animals. Rover is a dog. Is Rover an animal?
+A16: Yes.
+
+Q17: If A is true and B is true, what is A AND B?
+A17: True
+
+Q18: If A is false and B is true, what is A OR B?
+A18: True
+
+Q19: What is NOT(True)?
+A19: False
+
+Q20: If it rains, the grass gets wet. It rained. Did the grass get wet?
+A20: Yes.
+
+Q21: No cats are dogs. Fluffy is a cat. Is Fluffy a dog?
+A21: No.
+
+Q22: Either A or B is true (but not both). A is false. Is B true?
+A22: Yes, B is true.
+
+Q23: If the key fits, the lock opens. The lock is closed. Is the key fitting?
+A23: Cannot conclude; lock could be closed for other reasons.
+
+Q24: All A are B. All B are C. Are all A also C?
+A24: Yes.
+
+Q25: In a group of 100 people, 60 like coffee, 50 like tea. At least how many like both?
+A25: At least 10.
+
+Q26: Knights always tell truth, Knaves always lie. You meet someone. They say 'I am a Knave'. What are they?
+A26: They are a knight.
+
+Q27: There are 3 boxes. One has gold, two have rocks. You pick box A. The host opens box B (rock). Should you switch to box C?
+A27: Yes, switch (better odds under Monty Hall assumptions).
+
+Q28: A statement is self-referentially true if it accurately describes itself. Is 'This statement is false' self-referentially true?
+A28: No; it is a paradox (not consistently true or false).
+
+Q29: If all X are Y, all Y are Z, and some Z are not W, can we conclude some X are not W?
+A29: No, not necessarily.
+
+Q30: A and B enter a room. A says 'At least one of us is a knave'. What can you deduce?
+A30: At least one is a knight; cannot determine which without more info.
+
+Q31: What is the opposite of 'hot'?
+A31: Cold.
+
+Q32: Is 'book' a noun or verb?
+A32: Both; typically a noun, but can be a verb (to book a ticket).
+
+Q33: What does 'ambiguous' mean?
+A33: Having more than one possible meaning; unclear.
+
+Q34: What is a synonym for 'happy'?
+A34: Glad (or joyful).
+
+Q35: Complete: 'The dog ___ the bone.' (buried/bury/buries)?
+A35: buries
+
+Q36: What does 'pragmatic' mean?
+A36: Practical and focused on what works.
+
+Q37: Is 'they' a singular or plural pronoun?
+A37: Both; traditionally plural, but often singular in modern English.
+
+Q38: What is the difference between 'imply' and 'infer'?
+A38: Imply: suggest indirectly; infer: deduce from evidence.
+
+Q39: What is an idiom? Give an example.
+A39: An idiom is a phrase whose meaning isn't literal; e.g., 'kick the bucket'.
+
+Q40: Is 'unique' gradable (can something be 'very unique')?
+A40: In strict logic it's non-gradable; in casual use people say 'very unique' for emphasis.
+
+Q41: What is the semantic difference between 'incomplete' and 'unfinished'?
+A41: Incomplete: missing required parts; unfinished: not yet completed (may be complete-in-principle).
+
+Q42: Is language prescriptive or descriptive, and why does it matter?
+A42: Both approaches exist; descriptive describes how people use language, prescriptive recommends rules; it matters for education, clarity, and social judgments.
+
+Q43: What is the Sapir-Whorf hypothesis about language?
+A43: The idea that language influences (strong version: determines) thought and perception.
+
+Q44: Can a word be both a homonym and a homophone? Give example.
+A44: Yes; e.g., 'bat' (animal or sports bat) is a homonym, and 'bat' is also a homophone with itself; or more illustrative: 'bank' (river bank/financial bank) is a homonym and also homophone (same pronunciation).
+
+Q45: What does print('hello') output?
+A45: hello
+
+Q46: What is x after: x = 5; x = x + 3?
+A46: 8
+
+Q47: What does len('hello') return?
+A47: 5
+
+Q48: Is 5 > 3 true or false?
+A48: True
+
+Q49: What is 10 % 3 (modulo)?
+A49: 1
+
+Q50: x = [1, 2, 3]; x[1] = ?
+A50: 2
+
+Q51: What does 'hello'.upper() return?
+A51: HELLO
+
+Q52: for i in range(3): print(i) outputs?
+A52: 0
+1
+2
+
+Q53: What is {'a': 1, 'b': 2}['a']?
+A53: 1
+
+Q54: if 5 > 3: print('yes'); What prints?
+A54: yes
+
+Q55: x = [i*2 for i in [1,2,3]]; x = ?
+A55: [2, 4, 6]
+
+Q56: def f(x): return x**2; f(5) = ?
+A56: 25
+
+Q57: x = [1,2,3]; x.pop() returns?
+A57: 3
+
+Q58: What is try/except used for?
+A58: To handle exceptions (errors) and keep control flow from crashing.
+
+Q59: What is the capital of France?
+A59: Paris
+
+Q60: What year did World War 2 end?
+A60: 1945
+
+Q61: What is the largest planet in our solar system?
+A61: Jupiter
+
+Q62: What is H2O?
+A62: Water
+
+Q63: Who wrote 'Romeo and Juliet'?
+A63: William Shakespeare
+
+Q64: What is the smallest country by area?
+A64: Vatican City
+
+Q65: What is the speed of light?
+A65: Approximately 299,792,458 m/s
+
+Q66: How many continents are there?
+A66: 7
+
+Q67: Who was the first President of the United States?
+A67: George Washington
+
+Q68: What is the chemical symbol for Gold?
+A68: Au
+
+Q69: Who developed the theory of evolution?
+A69: Charles Darwin
+
+Q70: What philosopher is known for 'Categorical Imperative'?
+A70: Immanuel Kant
+
+Q71: Which Renaissance artist painted the Sistine Chapel ceiling?
+A71: Michelangelo
+
+Q72: What is the Gutenberg-Richter relation used for?
+A72: Relates earthquake magnitude to frequency (seismicity).
+
+Q73: If you had 2 pieces of string and needed to make 4 pieces, what could you do?
+A73: Cut each string once (or cut both) to create 4 pieces.
+
+Q74: How can you make a circle into a square?
+A74: Cut it into four equal arcs and rearrange (or draw a square around it).
+
+Q75: What can you use as a hammer if you don't have one?
+A75: A heavy, sturdy object like a rock or the back of a wrench.
+
+Q76: If a cup is upside down, how do you turn it right-side up?
+A76: Flip/turn it over (rotate 180°).
+
+Q77: You have 3 coins. Make them into a triangle. How?
+A77: Place them at the three corners of a triangle.
+
+Q78: You have a jug of 3L and 5L. Measure exactly 4L. How?
+A78: Fill 5L, pour into 3L (2L left). Empty 3L. Pour 2L into 3L. Fill 5L again, pour into 3L until full (needs 1L), leaving 4L in 5L.
+
+Q79: Move one stick to make this correct: VI + IV = IX (Roman numerals)
+A79: Move one I from IX to make VI + IV = X (or V + IV = IX).
+
+Q80: How can you connect 9 dots in a 3×3 grid with 4 straight lines without lifting pen?
+A80: Extend lines beyond the outer dots (“think outside the box”) to cover all 9 with 4 strokes.
+
+Q81: A man is trapped in a room with no windows. His only option is a door. The door has two guards. One always lies, one always tells truth. You don't know which is which. You can ask ONE question to find the exit. What do you ask?
+A81: Ask either guard: 'Which door would the other guard say leads to the exit?' and take the opposite door.
+
+Q82: How would you weigh an elephant using a scale that's too small?
+A82: Weigh in parts: weigh elephant+cart, then cart; subtract; or weigh pieces via platform/lever method.
+
+Q83: Design a warning system to alert deaf people of fire. What features would it have?
+A83: Visual strobe lights, vibrating alerts (bed shaker/wearables), connected smoke detectors, phone notifications, redundancy and battery backup.
+
+Q84: How would you teach a person who's never seen color before what 'red' is?
+A84: Use associations: common objects (fire, blood), wavelengths, and analogies; emphasize it as a distinct sensory quality.
+
+Q85: Design a more efficient system for underground parking. What changes?
+A85: Guidance system, one-way lanes, real-time occupancy, wider turns, automated payment, EV/compact zoning, better signage and sensors.
+
+Q86: If you had to communicate with an alien species that doesn't speak/hear, how would you?
+A86: Use shared math/physics patterns, visuals, demonstrations, symbols, and iterative feedback (e.g., pictograms, light pulses).
+
+Q87: A book costs $12 with 10% discount. Final price?
+A87: $10.80
+
+Q88: If code outputs 'HELLO', what was input if print(x.upper())?
+A88: Input could be 'hello' (or any string that uppercases to HELLO, typically 'hello').
+
+Q89: A recipe needs 2 cups flour. Doubling recipe needs?
+A89: 4 cups
+
+Q90: If Shakespeare wrote 37 plays and you've read 10, what percent left?
+A90: About 73% left (27/37 ≈ 72.97%).
+
+Q91: A company has 100 employees (60% code, 40% non-code). If non-code employees are 40, is the data consistent?
+A91: Yes, consistent (40% of 100 is 40).
+
+Q92: Historical fact: Leonardo da Vinci was painter + mathematician. What did he design using both skills?
+A92: Conceptual designs for machines (e.g., flying machines) and detailed engineering sketches.
+
+Q93: A programmer needs 10 hours to write code. With debugging, it's 15 total. Debugging is what % of time?
+A93: About 33.3% (5/15)
+
+Q94: Process 10,000 documents in 0.1 seconds each. 15 minutes available. Possible?
+A94: No; 10,000×0.1s = 1,000s ≈ 16.7 minutes, which exceeds 15 minutes.
+
+Q95: A translation from English → French loses 20% meaning. From French → German loses 15%. What % meaning lost end-to-end?
+A95: 32% lost (retain 0.8×0.85=0.68 => 68% retained).
+
+Q96: If AI can solve 70% of coding problems and handles 80% of simple logic, what % of mixed tasks solved (equal distribution)?
+A96: 75%
+
+Q97: Summarize: Machine learning improves by 5% yearly. Started at 70%. In 5 years, approximately what accuracy?
+A97: Approximately 89% if compounding: 70%×1.05^5 ≈ 89%. 
+
+Q98: Ethics: Is using AI to write code ethical if it might replace programmers? Explain.
+A98: It can be ethical with transparency, proper attribution/licensing, accountability, and upskilling; concerns include displacement, misuse, and quality/safety.
+
+Q99: A doctor must choose: drug works 90% of time (risks in 10%), no drug: disease progresses (100% worse). Best choice?
+A99: Generally take the drug: 90% chance of benefit vs certain worsening without it, assuming risks are acceptable and informed consent.
+
+Q100: Integrate: Math (statistics), Psychology (bias), Code (ML model). What is most important to avoid?
+A100: Avoid bias and data/label leakage; ensure fairness, representativeness, and rigorous validation.

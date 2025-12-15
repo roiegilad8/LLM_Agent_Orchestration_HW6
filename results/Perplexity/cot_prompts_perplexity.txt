@@ -1,0 +1,103 @@
+
+
+- Q1: 15 + 23 = 38.  
+- Q2: 100 − 45 = 55.  
+- Q3: 7 × 8 = 56.  
+- Q4: 144 ÷ 12 = 12.  
+- Q5: 17 is prime.  
+- Q6: 2x + 5 = 13 ⇒ x = 4.  
+- Q7: 25% of 200 = 50.  
+- Q8: Area = 5 × 12 = 60.  
+- Q9: 3³ = 27.  
+- Q10: √64 = 8.  
+- Q11: Time = 300 ÷ 60 = 5 hours.  
+- Q12: x² − 5x + 6 = 0 ⇒ x = 2 or x = 3.  
+- Q13: 7th term of 2,4,8,16,… is 128.  
+- Q14: Circumference = 2π·5 = 10π (≈31.4).  
+- Q15: log₂(32) = 5.  
+- Q16: Yes, Rover is an animal.  
+- Q17: True AND True = True.  
+- Q18: False OR True = True.  
+- Q19: NOT(True) = False.  
+- Q20: Yes, the grass got wet (modus ponens).  
+- Q21: No, Fluffy is not a dog.  
+- Q22: Yes, B is true.  
+- Q23: Not necessarily; the key might not be fitting.  
+- Q24: Yes, all A are C.  
+- Q25: At least 10 like both.  
+- Q26: The statement “I am a Knave” is impossible; such a person cannot exist.  
+- Q27: Yes, you should switch (Monty Hall; probability improves to 2/3).  
+- Q28: It is a paradox; it is not self-referentially true.  
+- Q29: No, you cannot conclude some X are not W.  
+- Q30: A must be a knight, B must be a knave.  
+- Q31: “Cold.”  
+- Q32: “Book” can be both a noun and a verb.  
+- Q33: “Ambiguous” means having more than one possible meaning.  
+- Q34: A synonym for “happy” is “joyful.”  
+- Q35: “The dog buried the bone.”  
+- Q36: “Pragmatic” means focused on practical results rather than theory.  
+- Q37: “They” is grammatically plural but can also be used as a singular gender‑neutral pronoun.  
+- Q38: To imply is to suggest; to infer is to draw a conclusion from evidence.  
+- Q39: An idiom is a fixed expression whose meaning is not literal, for example “break the ice.”  
+- Q40: Strictly, “unique” is not gradable, though people sometimes say “very unique” informally.  
+- Q41: “Incomplete” suggests missing required parts; “unfinished” suggests not yet brought to completion.  
+- Q42: Descriptive describes how language is used; prescriptive tells how it should be used, which affects teaching and norms.  
+- Q43: Sapir‑Whorf says language influences or shapes thought.  
+- Q44: Yes; “right” (correct) and “rite” are homophones; “right” (direction) and “right” (correct) are homonyms.  
+- Q45: It outputs `hello`.  
+- Q46: x becomes 8.  
+- Q47: len("hello") = 5.  
+- Q48: 5 > 3 is True.  
+- Q49: 10 % 3 = 1.  
+- Q50: x = 2.[1]
+- Q51: "hello".upper() returns "HELLO".  
+- Q52: It prints 0, then 1, then 2 on separate lines.  
+- Q53: It returns 1.  
+- Q54: It prints `yes`.  
+- Q55: x = .  
+- Q56: f(5) = 25.  
+- Q57: x.pop() returns 3.  
+- Q58: try/except is used to catch and handle exceptions (errors).  
+- Q59: Capital of France is Paris.  
+- Q60: World War 2 ended in 1945.  
+- Q61: Largest planet is Jupiter.  
+- Q62: H₂O is water.  
+- Q63: “Romeo and Juliet” was written by William Shakespeare.  
+- Q64: Smallest country by area is Vatican City.  
+- Q65: Speed of light ≈ 3×10⁸ m/s.  
+- Q66: There are 7 continents (by common convention).  
+- Q67: First U.S. president was George Washington.  
+- Q68: Chemical symbol for gold is Au.  
+- Q69: Theory of evolution was developed by Charles Darwin.  
+- Q70: Immanuel Kant.  
+- Q71: Michelangelo.  
+- Q72: It relates earthquake magnitude to frequency of occurrence.  
+- Q73: Cut each string in half.  
+- Q74: Transform the circle’s area into a square of equal area (e.g., by geometric construction or formula).  
+- Q75: Use a heavy object like a rock or wrench.  
+- Q76: Rotate or flip it so the opening faces upward.  
+- Q77: Arrange three coins at the vertices of a triangle.  
+- Q78: Fill 5L, pour into 3L, leaving 2L; empty 3L, pour remaining 2L into 3L; fill 5L and top up 3L (1L), leaving 4L.  
+- Q79: Move one “I” to turn VI + IV = XI (11) = XI (11).  
+- Q80: Extend lines outside the 3×3 boundary (“think outside the box”).  
+- Q81: Ask either guard: “Which door would the other guard say leads to the exit?” then choose the opposite door.  
+- Q82: Put the elephant on a boat, measure displacement, then use the scale for equivalent water or cargo.  
+- Q83: Use visual (flashing lights), vibrational alerts, and possibly connected devices (phones/wearables).  
+- Q84: Use analogies with other senses (heat, danger signs) and explanations of typical associations.  
+- Q85: Add clear signage, sensors for free spots, and guidance to nearest available spaces.  
+- Q86: Use visual symbols, mathematics, or physical demonstrations.  
+- Q87: 10% of 12 is 1.2, so final price is 10.8.  
+- Q88: Input was "hello".  
+- Q89: Doubling needs 4 cups of flour.  
+- Q90: You have 27 plays left, about 73%.  
+- Q91: Yes, 40 is 40% of 100, so it is consistent.  
+- Q92: For example, he designed mechanical devices and engineering sketches like flying machines.  
+- Q93: Debugging is 5 of 15 hours, i.e., about 33%.  
+- Q94: 10,000 × 0.1 s = 1,000 s; 15 minutes = 900 s → not possible.  
+- Q95: 20% lost then 15% of remaining: total loss = 32%.  
+- Q96: Equal mix: average of 70% and 80% = 75%.  
+- Q97: About 5% absolute gain per year: ≈95% after 5 years.  
+- Q98: It can be ethical if used responsibly, with transparency and attention to impact on workers.  
+- Q99: The drug is better because it greatly reduces risk compared to certain worsening.  
+- Q100: Most important is to avoid bias and misleading conclusions.
+

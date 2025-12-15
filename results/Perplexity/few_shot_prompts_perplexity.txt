@@ -1,0 +1,101 @@
+1. 38
+2. 55
+3. 56 
+4. 12
+5. Yes
+6. x = 4
+7. 50
+8. 60
+9. 27
+10. 8
+11. 5
+12. x = 2 or x = 3
+13. 128
+14. Approximately 31.4
+15. 5
+16. yes
+17. True
+18. True
+19. False
+20. Yes
+21. No
+22. Yes
+23. No
+24. Yes
+25. At least 10
+26. They are a knave
+27. Yes, you should switch
+28. No
+29. Not necessarily
+30. B is a knight, A is a knave
+31. Cold
+32. Noun (but can also be a verb depending on context)
+33. Having more than one possible meaning or interpretation
+34. Happy → glad, joyful, or cheerful
+35. The dog buried the bone.
+36. Pragmatic means dealing with things in a practical, results-oriented way
+37. Typically plural, but can be singular in gender-neutral usage
+38 .“Imply” means to suggest indirectly; “infer” means to draw a conclusion from evidence
+39. An idiom is a fixed expression whose meaning is not deducible from the individual words; for example, a phrase whose figurative meaning differs from its literal wording
+No, “unique” is generally not gradable
+“Incomplete” emphasizes something is missing parts; “unfinished” emphasizes the process is not yet done
+Language is primarily descriptive, but prescriptive rules also exist; this matters because it affects how language change and correctness are viewed
+The Sapir-Whorf hypothesis claims that language influences or shapes thought
+Yes; a word that sounds the same and is spelled the same but has different meanings fits both categories
+hello
+8
+5
+True
+1
+2
+HELLO
+0, 1, 2
+1
+yes
+[2, 4, 6]
+25
+3
+It removes and returns 3
+Handling or catching errors and exceptions
+Paris
+1945
+Jupiter
+Water
+William Shakespeare
+Vatican City
+Approximately 3.0 × 10^8 meters per second
+7
+George Washington
+Au
+Charles Darwin
+Immanuel Kant
+Michelangelo
+Relating earthquake magnitude to frequency
+Cut each string once to turn 2 pieces into 4 pieces
+By transforming it (for example, mathematically or by constructing a square of equal area)
+Any suitably heavy object with a flat surface, such as a rock or a wrench
+Turn it over
+Arrange the 3 coins as the vertices of a triangle
+Use a sequence of fills and pours between the 3L and 5L jugs to leave exactly 4L in one jug
+Rearrange one numeral so the equation becomes a correct true statement
+Draw the lines so they extend beyond the boundary of the 3×3 dot square, connecting all 9 without lifting the pen
+Ask one guard which door the other guard would say leads out, then take the opposite door
+Put the elephant and then remove water (or use displacement) so the scale never directly bears the full weight
+Use visual signals (flashing lights), vibrations, and possibly other non-auditory alerts placed throughout the home
+Relate red to typical associations (e.g., heat, danger, blood) and its physical properties such as wavelength
+Optimize space usage, navigation, and guidance (for example, clearer markings, sensors, and real-time availability indicators)
+Use visual symbols, shared physical references, patterns, or mathematical structures rather than spoken language
+$10.80
+hello
+4 cups
+About 73%
+Yes, it is consistent
+He designed machines and anatomical or engineering drawings that combined art and mathematics
+About 33%
+Yes, it is possible within 15 minutes
+About 32% total meaning lost
+About 75%
+About 89–90%
+It is ethically acceptable if used responsibly, with attention to fairness, accountability, and the impact on human workers
+Use the drug, because it offers a much higher chance of benefit than harm compared to doing nothing
+Bias and misuse of the integrated information and tools
