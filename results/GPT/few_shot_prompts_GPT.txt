@@ -1,0 +1,100 @@
+1. 38
+2. 55
+3. 56
+4. 12
+5. Yes
+6. 4
+7. 50
+8. 60
+9. 27
+10. 8
+11. 5
+12. x=2 or x=3
+13. 128
+14. 31.4159
+15. 5
+16. Yes
+17. True
+18. True
+19. False
+20. Yes
+21. No
+22. Yes
+23. Cannot conclude
+24. Yes
+25. 10
+26. Impossible statement: they must be a Knight
+27. Yes
+28. It is a paradox
+29. No
+30. A is a Knight, B is a Knave
+31. Cold
+32. Noun
+33. Having multiple possible meanings
+34. Joyful
+35. buried
+36. Practical
+37. Both (context-dependent)
+38. Imply = suggest; infer = deduce
+39. A phrase with figurative meaning, e.g., “Break the ice”
+40. No
+41. Incomplete = missing parts; unfinished = not done
+42. Descriptive; language describes usage
+43. Language influences thought
+44. Yes: “bat”
+45. hello
+46. 8
+47. 5
+48. True
+49. 1
+50. 2
+51. HELLO
+52. 0 1 2
+53. 1
+54. yes
+55. [2, 4, 6]
+56. 25
+57. 3
+58. Handling errors
+59. Paris
+60. 1945
+61. Jupiter
+62. Water
+63. William Shakespeare
+64. Vatican City
+65. 3×10^8 m/s
+66. 7
+67. George Washington
+68. Au
+69. Charles Darwin
+70. Immanuel Kant
+71. Michelangelo
+72. Earthquake magnitude-frequency relation
+73. Cut each piece once
+74. You can’t exactly; approximate by squaring the circle
+75. A rock or heavy object
+76. Turn it over
+77. Arrange them as triangle vertices
+78. Fill 5L, pour into 3L, empty 3L, transfer remaining 2L, fill 5L, top to 3L → 4L remain
+79. VI + III = IX
+80. Draw lines outside the box
+81. “Which door would the other guard say leads out?”
+82. Measure water displacement
+83. Lights, vibrations, visual alarms
+84. Describe wavelength, heat associations
+85. Better sensors, guidance, automation
+86. Visual symbols or tactile signals
+87. $10.80
+88. hello
+89. 4 cups
+90. ~73%
+91. Yes
+92. Vitruvian Man
+93. 50%
+94. Yes (10000×0.1 = 1000 sec < 900 sec? Actually 1000>900 → No)
+95. 32%
+96. 75%
+97. ~89%
+98. Depends; ethical if responsibly used
+99. Use drug
+100. Bias

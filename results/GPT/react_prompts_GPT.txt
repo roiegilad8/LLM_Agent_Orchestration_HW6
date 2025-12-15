@@ -1,0 +1,431 @@
+
+---
+
+Answers to the 100 prompts
+
+1.
+
+Answer: 38
+
+2.
+
+Answer: 55
+
+3.
+
+Answer: 56
+
+4.
+
+Answer: 12
+
+5.
+
+Answer: Yes — 17 is a prime number.
+
+6.
+
+Answer: x = 4
+
+7.
+
+Answer: 50
+
+8.
+
+Answer: 60
+
+9.
+
+Answer: 27
+
+10.
+
+Answer: 8
+
+11.
+
+Answer: 5 hours
+
+12.
+
+Answer: x = 2 or x = 3
+
+13.
+
+Answer: 128
+
+14.
+
+Answer: Circumference = 2πr = 10π
+
+15.
+
+Answer: 5
+
+16.
+
+Answer: Yes — Rover is an animal.
+
+17.
+
+Answer: True
+
+18.
+
+Answer: True
+
+19.
+
+Answer: False
+
+20.
+
+Answer: Yes — by modus ponens the grass is wet.
+
+21.
+
+Answer: No — Fluffy is not a dog.
+
+22.
+
+Answer: Yes — B must be true.
+
+23.
+
+Answer: Cannot determine (the lock being closed doesn't imply the key fits).
+
+24.
+
+Answer: Yes — all A are C.
+
+25.
+
+Answer: At least 10 people like both.
+
+26.
+
+Answer: Paradox/Impossible — the statement "I am a Knave" cannot be consistently made by either a knight or a knave.
+
+27.
+
+Answer: Yes — switch (Monty Hall: switching gives 2/3 win probability).
+
+28.
+
+Answer: It's the liar paradox — it's neither consistently true nor false.
+
+29.
+
+Answer: No — you cannot conclude some X are not W from the premises.
+
+30.
+
+Answer: A is a knight and B is a knave.
+
+31.
+
+Answer: Cold
+
+32.
+
+Answer: It can be both — 'book' is a noun or a verb depending on usage.
+
+33.
+
+Answer: 'Ambiguous' means having more than one possible meaning or interpretation.
+
+34.
+
+Answer: Synonym for 'happy': joyful (also: glad, content, pleased).
+
+35.
+
+Answer: The dog buried the bone.
+
+36.
+
+Answer: 'Pragmatic' means practical and focused on workable solutions and results.
+
+37.
+
+Answer: 'They' is normally plural; it is also commonly used as a singular (gender-neutral) pronoun.
+
+38.
+
+Answer: 'Imply' = speaker suggests something; 'infer' = listener draws a conclusion.
+
+39.
+
+Answer: An idiom is a phrase whose meaning isn't deducible from the individual words. Example: "break the ice".
+
+40.
+
+Answer: Traditionally not gradable — 'unique' means one of a kind (so 'very unique' is frowned upon), though it's often used colloquially with modifiers.
+
+41.
+
+Answer: 'Incomplete' suggests missing parts or elements; 'unfinished' suggests something not brought to a final state — overlap but different emphasis.
+
+42.
+
+Answer: Language is descriptive (linguistics describes how people use language); prescriptive rules matter for standards and teaching but don't fully describe actual usage.
+
+43.
+
+Answer: Sapir–Whorf hypothesis (linguistic relativity): language influences (or shapes) thought and perception.
+
+44.
+
+Answer: Yes. Example: "bank" (financial institution) and "bank" (river edge) are homonyms (same spelling/pronunciation, different meanings) and therefore also homophones.
+
+45.
+
+Answer: hello
+
+46.
+
+Answer: x = 8
+
+47.
+
+Answer: 5
+
+48.
+
+Answer: True
+
+49.
+
+Answer: 1
+
+50.
+
+Answer: 2
+
+51.
+
+Answer: 'HELLO'
+
+52.
+
+Answer:
+0
+1
+2
+
+53.
+
+Answer: 1
+
+54.
+
+Answer: yes
+
+55.
+
+Answer: [2, 4, 6]
+
+56.
+
+Answer: 25
+
+57.
+
+Answer: 3
+
+58.
+
+Answer: For handling exceptions/errors (to run fallback code instead of crashing).
+
+59.
+
+Answer: Paris
+
+60.
+
+Answer: 1945
+
+61.
+
+Answer: Jupiter
+
+62.
+
+Answer: Water (H₂O — two hydrogen atoms and one oxygen atom).
+
+63.
+
+Answer: William Shakespeare
+
+64.
+
+Answer: Vatican City
+
+65.
+
+Answer: Approximately 299,792,458 m/s
+
+66.
+
+Answer: Seven continents
+
+67.
+
+Answer: George Washington
+
+68.
+
+Answer: Au
+
+69.
+
+Answer: Charles Darwin
+
+70.
+
+Answer: Immanuel Kant
+
+71.
+
+Answer: Michelangelo
+
+72.
+
+Answer: The Gutenberg–Richter relation describes the frequency–magnitude distribution of earthquakes (how many quakes occur at each magnitude).
+
+73.
+
+Answer: Cut each string in half (or cut them to make four pieces) — simple way: cut each piece into two.
+
+74.
+
+Answer: You can inscribe a square in the circle (or cut/transform the circle into square pieces) — geometrically you can place a square inside a circle (or approximate a square of equal area).
+
+75.
+
+Answer: Use a rock, wrench, or heavy tool as an improvised hammer.
+
+76.
+
+Answer: Flip it over (turn it right-side up).
+
+77.
+
+Answer: Place the three coins at the three corners of an (imaginary) triangle — arrange them in a triangular layout.
+
+78.
+
+Answer:
+
+1. Fill 5L jug.
+2. Pour from 5L into 3L until 3L full (leaves 2L in 5L).
+3. Empty 3L and pour the 2L into 3L.
+4. Fill 5L again and pour into 3L until full (adds 1L). Remaining in 5L: 4L.
+
+79)
+
+Answer: Move the vertical stroke from the '+' to make it a '-' sign. Then VI - IV = II, which is correct.
+
+80.
+
+Answer: Draw four straight lines that extend beyond the 3×3 box (the classic "think outside the box" solution).
+
+81.
+
+Answer: Ask either guard: "If I asked the other guard which door leads to the exit, what would he say?" Then take the opposite door.
+
+82.
+
+Answer: Put the elephant on a boat and measure the water displacement, then compare to known weights (use buoyancy displacement to compute weight).
+
+83.
+
+Answer: Features:
+
+* Bright, flashing lights (multiple locations)
+* Strong vibration alerts (bed/bracelet/phone)
+* Loud alarm alternatives and visual panels
+* Smartphone push notifications and SMS
+* Bed shaker for sleeping people
+* Interconnected detectors and redundancy
+* Battery backup and fail-safe testing
+* Clear instructions and interfaces for deaf users
+
+84.
+
+Answer: Use consistent examples and multisensory associations: show ripe strawberries, fire, heated objects (warm), give tactile/temperature associations, and label repeatedly. Use cultural examples and point to many red objects so they form a stable mapping.
+
+85.
+
+Answer: Improvements:
+
+* Automated valet and car lifts to use vertical space
+* Rotating platforms and car-stackers
+* Smart reservation and guidance to reduce idle searching
+* One-way lanes and optimized routing algorithms
+* Real-time sensors and digital signage for empty spots
+* EV charging integration and modular bays
+
+86.
+
+Answer: Use non-auditory channels: visual patterns/pulses (mathematics), light, symbols, tactile signals, physical demonstrations and experiments, universal math/physics concepts (prime numbers, binary), and build a shared lexicon from repeated associations.
+
+87.
+
+Answer: $10.80
+
+88.
+
+Answer: 'hello' (or any case variant that .upper() becomes 'HELLO', e.g. 'Hello').
+
+89.
+
+Answer: 4 cups
+
+90.
+
+Answer: 73% (27 of 37 plays remaining ≈ 72.97% ≈ 73%)
+
+91.
+
+Answer: Yes — 40 non-code employees equals 40% of 100, so it's consistent.
+
+92.
+
+Answer: He designed flying-machine concepts (ornithopters) and many mechanical devices using both art and maths.
+
+93.
+
+Answer: Debugging time = 5 hours out of 15 total → 33.33%
+
+94.
+
+Answer: No — needs 10,000 × 0.1s = 1,000s ≈ 16.67 minutes, which is more than 15 minutes.
+
+95.
+
+Answer: Overall meaning retained = 0.8 × 0.85 = 0.68 → total lost = 32%
+
+96.
+
+Answer: (70% + 80%) / 2 = 75%
+
+97.
+
+Answer: 70% × (1.05^5) ≈ 89.34% (approx. 89.3% accuracy after 5 years)
+
+98.
+
+Answer: Using AI to write code can be ethical provided transparency, fair labor practices, reskilling opportunities, proper attribution, safety checks, and mitigation of harm — considerations about job displacement matter and require policy, retraining, and responsible deployment.
+
+99.
+
+Answer: Give the drug — 90% effectiveness with 10% risk is preferable to certain (100%) deterioration; ensure informed consent and consider risk factors.
+
+100.
+
+Answer: Avoid bias and misuse of statistics — ensure representative data, correct statistical methods, and avoid letting psychological biases or sloppy code produce unfair or incorrect outcomes.
+
+---
+
