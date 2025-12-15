@@ -15,7 +15,6 @@ __pycache__/
 .DS_Store
 
 # Results
-results/
 *.csv:Zone.Identifier
 *.md:Zone.Identifier
 
